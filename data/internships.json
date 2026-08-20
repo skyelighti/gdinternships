@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T14:23:10.994Z",
+  "updatedAt": "2026-08-20T14:27:55.567Z",
   "source": "seed (Trello board) + AI-assisted research pass, Aug 2026",
   "internships": [
     {
@@ -2047,6 +2047,282 @@
         "https://job-boards.greenhouse.io/spacex/jobs/8621757002"
       ],
       "primaryUrl": "https://job-boards.greenhouse.io/spacex/jobs/8621757002"
+    },
+    {
+      "id": "epic-games-gameplay-programmer-intern",
+      "company": "Epic Games",
+      "program": "Gameplay Programmer Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6141180004?gh_jid=6141180004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6141180004?gh_jid=6141180004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:52.727Z",
+      "lastChanged": "2026-08-20T14:27:52.727Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "epic-games-machine-learning-intern",
+      "company": "Epic Games",
+      "program": "Machine Learning Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:52.727Z",
+      "lastChanged": "2026-08-20T14:27:52.727Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "epic-games-tech-art-intern",
+      "company": "Epic Games",
+      "program": "Tech Art Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6147154004?gh_jid=6147154004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6147154004?gh_jid=6147154004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:52.727Z",
+      "lastChanged": "2026-08-20T14:27:52.727Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "epic-games-tools-programmer-intern",
+      "company": "Epic Games",
+      "program": "Tools Programmer Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6147167004?gh_jid=6147167004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6147167004?gh_jid=6147167004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:52.727Z",
+      "lastChanged": "2026-08-20T14:27:52.727Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "riot-games-research-intern-phd-or-master-s-contract",
+      "company": "Riot Games",
+      "program": "Research Intern, PhD or Master's (Contract)",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Riot Games's public greenhouse job board.",
+      "links": [
+        "https://www.riotgames.com/en/work-with-us/job/7997684?gh_jid=7997684"
+      ],
+      "primaryUrl": "https://www.riotgames.com/en/work-with-us/job/7997684?gh_jid=7997684",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:52.850Z",
+      "lastChanged": "2026-08-20T14:27:52.850Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "roblox-summer-2027-software-engineer-intern",
+      "company": "Roblox",
+      "program": "[Summer 2027] Software Engineer Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "game-tech",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Roblox's public greenhouse job board.",
+      "links": [
+        "https://careers.roblox.com/jobs/8072713?gh_jid=8072713"
+      ],
+      "primaryUrl": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:53.057Z",
+      "lastChanged": "2026-08-20T14:27:53.057Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "scopely-intern-game-design-slot",
+      "company": "Scopely",
+      "program": "Intern - Game Design (Slot)",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Scopely's public greenhouse job board.",
+      "links": [
+        "https://job-boards.greenhouse.io/scopely/jobs/5256167008?gh_jid=5256167008"
+      ],
+      "primaryUrl": "https://job-boards.greenhouse.io/scopely/jobs/5256167008?gh_jid=5256167008",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:53.380Z",
+      "lastChanged": "2026-08-20T14:27:53.380Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "wildlife-studios-wildlife-studios-internship-program-2027",
+      "company": "Wildlife Studios",
+      "program": "Wildlife Studios Internship Program - 2027 ",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "indie",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Wildlife Studios's public greenhouse job board.",
+      "links": [
+        "https://job-boards.greenhouse.io/wildlifestudios/jobs/8561456002"
+      ],
+      "primaryUrl": "https://job-boards.greenhouse.io/wildlifestudios/jobs/8561456002",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:53.494Z",
+      "lastChanged": "2026-08-20T14:27:53.494Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "larian-studios-gameplay-programmer-internship",
+      "company": "Larian Studios",
+      "program": "Gameplay Programmer Internship",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "indie",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Larian Studios's public lever job board.",
+      "links": [
+        "https://jobs.lever.co/larian/d546d9c3-ab0d-4c77-81d8-8b8388c158ff"
+      ],
+      "primaryUrl": "https://jobs.lever.co/larian/d546d9c3-ab0d-4c77-81d8-8b8388c158ff",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:54.718Z",
+      "lastChanged": "2026-08-20T14:27:54.718Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "larian-studios-level-design-internship",
+      "company": "Larian Studios",
+      "program": "Level Design Internship",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "indie",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Larian Studios's public lever job board.",
+      "links": [
+        "https://jobs.lever.co/larian/27fc755d-40b6-43b9-b58a-3ca3ebb01fc7"
+      ],
+      "primaryUrl": "https://jobs.lever.co/larian/27fc755d-40b6-43b9-b58a-3ca3ebb01fc7",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:54.718Z",
+      "lastChanged": "2026-08-20T14:27:54.718Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "thatgamecompany-general-engineer-intern",
+      "company": "thatgamecompany",
+      "program": "General Engineer Intern - 工程实习生",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "indie",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via thatgamecompany's public ashby job board.",
+      "links": [
+        "https://jobs.ashbyhq.com/thatgamecompany/23933b1a-7800-40c0-ac32-99a05b1ebf94"
+      ],
+      "primaryUrl": "https://jobs.ashbyhq.com/thatgamecompany/23933b1a-7800-40c0-ac32-99a05b1ebf94",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:55.464Z",
+      "lastChanged": "2026-08-20T14:27:55.464Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
+    },
+    {
+      "id": "niantic-spatial-robotics-engineering-intern-fall-2026",
+      "company": "Niantic Spatial",
+      "program": "Robotics Engineering Intern - Fall 2026",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "game-tech",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": null,
+      "statusNote": null,
+      "fit": "Discovered via Niantic Spatial's public ashby job board.",
+      "links": [
+        "https://jobs.ashbyhq.com/niantic-spatial/02fe210c-a0d9-419f-a0c0-da32d9ff7307"
+      ],
+      "primaryUrl": "https://jobs.ashbyhq.com/niantic-spatial/02fe210c-a0d9-419f-a0c0-da32d9ff7307",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:27:55.566Z",
+      "lastChanged": "2026-08-20T14:27:55.566Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "ats-scan"
     }
   ]
 }
