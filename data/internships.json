@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T13:40:10.865Z",
-  "source": "seed (Trello board + manual research)",
+  "updatedAt": "2026-08-20T13:46:36.754Z",
+  "source": "seed (Trello board) + AI-assisted research pass, Aug 2026",
   "internships": [
     {
       "id": "microsoft-explore",
@@ -1614,6 +1614,248 @@
       "lastChecked": null,
       "lastChanged": null,
       "addedAt": "2026-08-20"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "amazon-games",
+      "company": "Amazon Games",
+      "program": "Amazon Games (Amazon Game Studios)",
+      "tag": "ROLLING • GAME",
+      "category": "aaa",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "routes through Amazon's broader internship portal; monitor fall through winter.",
+      "focus": "game programming and game design internship tracks within Amazon Game Studios.",
+      "fit": "First-party AAA studio at a publicly-traded company; apply via Amazon.jobs filtered to the Games org.",
+      "links": [
+        "https://www.amazon.jobs/en/teams/amazon-game-studios"
+      ],
+      "primaryUrl": "https://www.amazon.jobs/en/teams/amazon-game-studios"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "rockstar-games",
+      "company": "Rockstar Games",
+      "program": "Rockstar Games",
+      "tag": "SEASONAL WATCH • GAME",
+      "category": "aaa",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "no open reqs as of research date; internships (production, programming, design, art, QA) post seasonally.",
+      "focus": "game programming and game design internship tracks.",
+      "fit": "AAA publisher (GTA, RDR2), Take-Two Interactive subsidiary.",
+      "links": [
+        "https://job-boards.greenhouse.io/rsgur",
+        "https://www.rockstargames.com/careers"
+      ],
+      "primaryUrl": "https://job-boards.greenhouse.io/rsgur"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "bungie",
+      "company": "Bungie",
+      "program": "Bungie",
+      "tag": "SEASONAL WATCH • GAME",
+      "category": "aaa",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "0 open roles as of research date; recurring internship program page, check regularly.",
+      "focus": "game programming and game design internship tracks.",
+      "fit": "Destiny studio operating independently under Sony; recurring dedicated internship team page.",
+      "links": [
+        "https://careers.bungie.com/teams/internship"
+      ],
+      "primaryUrl": "https://careers.bungie.com/teams/internship"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "respawn-entertainment",
+      "company": "Respawn Entertainment",
+      "program": "Respawn Entertainment (EA)",
+      "tag": "ROLLING • GAME",
+      "category": "aaa",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "hires through EA's intern/university-grad pipeline; monitor fall through winter.",
+      "focus": "game programming and game design; Apex Legends, Star Wars Jedi.",
+      "fit": "Distinct AAA brand under EA — may overlap with the existing Electronic Arts (EA) listing; check both.",
+      "links": [
+        "https://www.ea.com/careers/interns-and-university-graduates"
+      ],
+      "primaryUrl": "https://www.ea.com/careers/interns-and-university-graduates"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "gearbox-software",
+      "company": "Gearbox Software",
+      "program": "Gearbox Software",
+      "tag": "AD HOC • GAME",
+      "category": "aaa",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "no fixed annual cycle; postings appear ad hoc — check periodically.",
+      "focus": "game programming and game design internship tracks.",
+      "fit": "Borderlands developer, Take-Two Interactive subsidiary — may overlap with the existing Take-Two listing.",
+      "links": [
+        "https://www.gearboxsoftware.com/careers/"
+      ],
+      "primaryUrl": "https://www.gearboxsoftware.com/careers/"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "second-dinner",
+      "company": "Second Dinner",
+      "program": "Second Dinner",
+      "tag": "ROLLING • INDIE GAME",
+      "category": "indie",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "has run a recurring ~12-13 week summer cohort; check current openings each cycle.",
+      "focus": "Feature Design Intern, SWE Intern, and Art/UX Intern tracks.",
+      "fit": "Funded/profitable mobile studio (Marvel Snap), founded by Hearthstone veterans, backed by Netmarble — one of the few studios with a dedicated pure game-design internship track.",
+      "links": [
+        "https://jobs.ashbyhq.com/seconddinner"
+      ],
+      "primaryUrl": "https://jobs.ashbyhq.com/seconddinner"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "certain-affinity",
+      "company": "Certain Affinity",
+      "program": "Certain Affinity",
+      "tag": "SEASONAL WATCH • INDIE GAME",
+      "category": "indie",
+      "focusType": "game-design",
+      "target": "Summer 2027",
+      "postingWindow": "no open reqs as of research date; mostly design/art-adjacent internships (Concept Art, 3D Art, Level Design) post seasonally.",
+      "focus": "level design and art-adjacent internship tracks.",
+      "fit": "Austin AAA-support studio founded by an ex-Halo/Bungie multiplayer lead; shipped work on Halo, COD, DOOM.",
+      "links": [
+        "https://www.certainaffinity.com/careers/"
+      ],
+      "primaryUrl": "https://www.certainaffinity.com/careers/"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "jam-city",
+      "company": "Jam City",
+      "program": "Jam City",
+      "tag": "SEASONAL WATCH • INDIE GAME",
+      "category": "indie",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "no visible open reqs as of research date; Software Engineering (Game Development) Intern and Game Design Intern tracks documented historically.",
+      "focus": "game programming and game design internship tracks.",
+      "fit": "Profitable mobile studio (Harry Potter: Hogwarts Mystery, Cookie Jam Blast).",
+      "links": [
+        "https://www.jamcity.com/careers/"
+      ],
+      "primaryUrl": "https://www.jamcity.com/careers/"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "girls-make-games-scholarship",
+      "company": "Girls Make Games",
+      "program": "Girls Make Games Scholarship Fund",
+      "tag": "ANNUAL • NONPROFIT",
+      "category": "nonprofit",
+      "focusType": "game-design",
+      "target": "Summer 2027",
+      "postingWindow": "2026 cohort applications closed; watch for the 2027 cycle to open.",
+      "focus": "4-year college scholarship ($10K/yr) paired with industry mentorship, internship placement support, and job placement assistance.",
+      "eligibility": "open to women and non-binary students.",
+      "fit": "Backed by Sony Interactive Entertainment, Take-Two Interactive, and Humble Bundle; real placement track record.",
+      "links": [
+        "https://www.gmgsf.org/college-scholarships"
+      ],
+      "primaryUrl": "https://www.gmgsf.org/college-scholarships"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "igda-foundation",
+      "company": "IGDA Foundation",
+      "program": "IGDA Foundation (Scholars / Velocity / Questline / Next Gen Leaders)",
+      "tag": "ROLLING • NONPROFIT",
+      "category": "nonprofit",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "rolling application via Submittable.",
+      "focus": "mentorship, GDC/Gamescom conference access, and 1:1 industry mentoring — not a guaranteed internship placement, more a networking/mentorship pipeline.",
+      "fit": "501(c)(3) affiliated with the International Game Developers Association; long track record in the industry.",
+      "links": [
+        "https://www.igdafoundation.org/programs"
+      ],
+      "primaryUrl": "https://www.igdafoundation.org/programs"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "discord",
+      "company": "Discord",
+      "program": "Discord Internship",
+      "tag": "ROLLING • GAME-TECH",
+      "category": "game-tech",
+      "focusType": "swe",
+      "target": "Summer 2027",
+      "postingWindow": "next cycle postings typically appear October-December.",
+      "focus": "SWE internships across Platform Ecosystems, Data Products, and Native Framework & Tools teams.",
+      "fit": "Major gaming-community platform, similar profile to Meta/Snap/Adobe/Figma already tracked.",
+      "links": [
+        "https://discord.com/jobs"
+      ],
+      "primaryUrl": "https://discord.com/jobs"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "id": "netflix-games",
+      "company": "Netflix",
+      "program": "Netflix Games Internship",
+      "tag": "SEASONAL WATCH • GAME-TECH",
+      "category": "game-tech",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "no games-specific intern req visible as of research date; general Netflix internship program occasionally includes the Games team.",
+      "focus": "internal games division building/publishing titles (Netflix Games Studio).",
+      "fit": "Publicly-traded company building an internal games division via multiple acquired indie/AA studios.",
+      "links": [
+        "https://jobs.netflix.com/careers/internships"
+      ],
+      "primaryUrl": "https://jobs.netflix.com/careers/internships"
     }
   ]
 }

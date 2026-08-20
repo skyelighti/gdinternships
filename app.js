@@ -2,13 +2,14 @@ const CATEGORY_LABELS = {
   aaa: "AAA / Major Studio",
   indie: "Indie / Small Studio",
   design: "Game Design",
+  nonprofit: "Nonprofit / Community",
   "game-tech": "Game-Tech / XR / Tools",
   "first-year": "First-Year Program",
   "general-swe": "General SWE",
   research: "Research / REU",
 };
 
-const GAME_CATEGORIES = new Set(["aaa", "indie", "design"]);
+const GAME_CATEGORIES = new Set(["aaa", "indie", "design", "nonprofit"]);
 
 const state = {
   all: [],
