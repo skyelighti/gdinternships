@@ -5,9 +5,13 @@
   "type": "module",
   "description": "Tracker for game design and game programming internships, with automated status checks and email alerts.",
   "scripts": {
-    "check": "node scripts/check-internships.mjs"
+    "check": "node scripts/check-internships.mjs",
+    "discover": "node scripts/discover.mjs"
   },
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0"
   }
 }

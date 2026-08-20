@@ -10,6 +10,11 @@ built for a single person's job search. It:
   **Watching** to **Open** when it detects the role has likely gone live.
 - Emails a digest via [Resend](https://resend.com) whenever a listing newly flips to
   **Open**.
+- Runs a second scheduled [GitHub Action](.github/workflows/discover-internships.yml)
+  weekly that looks for internships/programs *not yet in the tracker* — via a free scan
+  of known studios' public job-board APIs, and (optionally) a Claude web-search pass that
+  searches the open web for new credible programs — and emails a separate digest when it
+  finds any.
 
 The seed data (`data/internships.json`) combines a manually curated Trello board with
 additional research into credible US game studios (AAA, indie, and nonprofit/community
@@ -26,14 +31,39 @@ Generic "careers" landing pages (as opposed to a specific job posting URL) are e
 prone to false negatives/positives — swap in a direct job-posting URL for `primaryUrl` in
 `data/internships.json` whenever one becomes available for more accurate tracking.
 
+## How discovery works (and its limits)
+
+Two independent, free-to-run mechanisms look for internships not already in the tracker,
+combined in `scripts/discover.mjs` and run weekly:
+
+- **ATS job-board scan** (`scripts/discover-ats.mjs`, no API key needed): a fixed
+  watchlist in `data/ats-watchlist.json` of studios known to use Greenhouse, Lever, or
+  Ashby lists their public job-board API for live "intern" postings. Anything found this
+  way is added with `"trackingStatus": "open"` immediately, since it's a live posting
+  straight from the employer's own board — not a heuristic. This only ever finds openings
+  at studios already on the watchlist; add more `{company, provider, slug}` entries to
+  `data/ats-watchlist.json` as you learn them.
+- **Claude web search** (`scripts/discover-claude.mjs`, requires `ANTHROPIC_API_KEY`):
+  calls the Anthropic API with the web search tool to search the open web for new credible
+  studios/programs, given the existing tracked list so it can avoid duplicates. This is
+  the only mechanism that can find a genuinely new studio you haven't heard of, but it
+  costs a small amount of API usage per run and its picks are model judgment, not a
+  guarantee — added as `"trackingStatus": "watching"` for you to sanity-check. If
+  `ANTHROPIC_API_KEY` isn't set, this step is skipped and only the free ATS scan runs.
+
 ## Project layout
 
 ```
 data/internships.json      # single source of truth for all tracked listings
+data/ats-watchlist.json    # studios scanned by the free ATS discovery mechanism
 index.html / styles.css / app.js   # static site (GitHub Pages) that reads the JSON
-scripts/check-internships.mjs      # the scheduled checker
+scripts/check-internships.mjs      # the daily status checker
+scripts/discover.mjs               # the weekly discovery orchestrator
+scripts/discover-ats.mjs           # free Greenhouse/Lever/Ashby job-board scan
+scripts/discover-claude.mjs        # Claude API web-search discovery
 scripts/send-email.mjs             # Resend email sending
-.github/workflows/check-internships.yml  # daily cron + manual trigger
+.github/workflows/check-internships.yml     # daily cron + manual trigger
+.github/workflows/discover-internships.yml  # weekly cron + manual trigger
 ```
 
 ## One-time setup
@@ -57,10 +87,12 @@ Repo Settings → Secrets and variables → Actions → **New repository secret*
 | `RESEND_API_KEY`   | the API key from Resend                                 |
 | `TO_EMAIL`         | the email address that should receive alerts            |
 | `FROM_EMAIL`       | *(optional)* e.g. `gdinternships <alerts@yourdomain.com>` — defaults to `onboarding@resend.dev` |
+| `ANTHROPIC_API_KEY` | *(optional)* an API key from [console.anthropic.com](https://console.anthropic.com) — enables the Claude web-search half of weekly discovery. Without it, the free ATS job-board scan still runs on its own. |
 
 ### 4. Test it
-Actions tab → "Check internship listings" → **Run workflow** to trigger it manually
-instead of waiting for the daily 13:00 UTC schedule.
+Actions tab → pick a workflow ("Check internship listings" or "Discover new internship
+listings") → **Run workflow** to trigger it manually instead of waiting for its schedule
+(daily 13:00 UTC for the checker, weekly Monday 12:00 UTC for discovery).
 
 ## Adding or editing listings
 

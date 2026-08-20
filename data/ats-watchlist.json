@@ -1,0 +1,7 @@
+[
+  { "company": "Rockstar Games", "provider": "greenhouse", "slug": "rsgur", "category": "aaa" },
+  { "company": "Second Dinner", "provider": "ashby", "slug": "seconddinner", "category": "indie" },
+  { "company": "Krafton Americas", "provider": "greenhouse", "slug": "kraftonamericas", "category": "aaa" },
+  { "company": "Zynga", "provider": "greenhouse", "slug": "zyngaearlycareers", "category": "aaa" },
+  { "company": "Hasbro", "provider": "greenhouse", "slug": "hasbro", "category": "aaa" }
+]
