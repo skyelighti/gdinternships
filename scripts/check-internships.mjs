@@ -31,6 +31,21 @@ function seasonTokens(target) {
   return tokens;
 }
 
+// Very rough tag/script/style stripping so word-proximity checks operate on
+// roughly what a human would read, not raw markup where unrelated words can
+// sit adjacent in the source but far apart visually (or vice versa).
+function stripHtml(html) {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/\s+/g, " ");
+}
+
+const INTERN_WORD_RE = /\bintern(?:ship)?s?\b/gi;
+const PROXIMITY_WINDOW = 300; // chars on each side of an "intern" match
+
 async function fetchWithTimeout(url) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
@@ -47,13 +62,36 @@ async function fetchWithTimeout(url) {
   }
 }
 
-function detectOpen(html, target) {
+// Requires a real word-boundary "intern(ship)?" occurrence with a season/year
+// token — and an optional program-specific matchTerm — nearby in the visible
+// text, not just anywhere on the page. This avoids matching unrelated words
+// like "international"/"internal"/"internet", and avoids treating a page that
+// merely mentions interns somewhere unrelated (e.g. a footer link to a
+// different program) as evidence *this* program is open.
+function detectOpen(html, target, matchTerm) {
   const lower = html.toLowerCase();
   if (NEGATIVE_SIGNALS.some((s) => lower.includes(s))) return false;
-  const hasIntern = lower.includes("intern");
+
+  const text = stripHtml(html).toLowerCase();
   const tokens = seasonTokens(target);
-  const hasSeason = tokens.some((t) => lower.includes(t));
-  return hasIntern && hasSeason;
+  // matchTerm may be "term1|term2|..." — any alternative counts as a match.
+  const matchTermAlternatives = matchTerm
+    ? matchTerm.toLowerCase().split("|").map((t) => t.trim())
+    : null;
+
+  let match;
+  INTERN_WORD_RE.lastIndex = 0;
+  while ((match = INTERN_WORD_RE.exec(text)) !== null) {
+    const start = Math.max(0, match.index - PROXIMITY_WINDOW);
+    const end = Math.min(text.length, match.index + PROXIMITY_WINDOW);
+    const window = text.slice(start, end);
+
+    const hasSeason = tokens.some((t) => window.includes(t));
+    if (!hasSeason) continue;
+    if (matchTermAlternatives && !matchTermAlternatives.some((t) => window.includes(t))) continue;
+    return true;
+  }
+  return false;
 }
 
 async function checkOne(item) {
@@ -70,7 +108,7 @@ async function checkOne(item) {
       return nowChecked;
     }
 
-    const isOpenNow = detectOpen(text, item.target || "Summer 2027");
+    const isOpenNow = detectOpen(text, item.target || "Summer 2027", item.matchTerm);
     if (isOpenNow && item.trackingStatus !== "open") {
       return { ...nowChecked, trackingStatus: "open", lastChanged: now };
     }

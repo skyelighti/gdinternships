@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T13:53:43.577Z",
+  "updatedAt": "2026-08-20T14:00:18.560Z",
   "source": "seed (Trello board) + AI-assisted research pass, Aug 2026",
   "internships": [
     {
@@ -20,9 +20,10 @@
       ],
       "primaryUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:23.496Z",
+      "lastChecked": "2026-08-20T13:59:58.486Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "matchTerm": "explore"
     },
     {
       "id": "nvidia-ignite",
@@ -42,9 +43,10 @@
       ],
       "primaryUrl": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:23.569Z",
+      "lastChecked": "2026-08-20T13:59:58.521Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "matchTerm": "ignite"
     },
     {
       "id": "two-sigma-first-year-swe",
@@ -64,10 +66,11 @@
         "https://www.twosigma.com/houston-office/"
       ],
       "primaryUrl": "https://www.twosigma.com/careers/internships/",
-      "trackingStatus": "open",
-      "lastChecked": "2026-08-20T13:53:23.572Z",
-      "lastChanged": "2026-08-20T13:53:23.572Z",
-      "addedAt": "2026-08-20"
+      "trackingStatus": "watching",
+      "lastChecked": "2026-08-20T13:59:58.522Z",
+      "lastChanged": "2026-08-20T13:59:58.522Z",
+      "addedAt": "2026-08-20",
+      "matchTerm": "first year|first-year|houston"
     },
     {
       "id": "uberstar",
@@ -87,9 +90,10 @@
       ],
       "primaryUrl": "https://jobs.uber.com/en/teams/emerging-talent/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:23.574Z",
+      "lastChecked": "2026-08-20T13:59:58.523Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "matchTerm": "star|emerging talent"
     },
     {
       "id": "roblox",
@@ -110,7 +114,7 @@
       ],
       "primaryUrl": "https://careers.roblox.com/jobs/7678445",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:23.575Z",
+      "lastChecked": "2026-08-20T13:59:58.524Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -132,7 +136,7 @@
       ],
       "primaryUrl": "https://careers.wbd.com/global/en/global-tech-and-games-early-talent-programs",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:23.727Z",
+      "lastChecked": "2026-08-20T13:59:58.625Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -156,7 +160,7 @@
       ],
       "primaryUrl": "https://www.riotgames.com/en/student-internships",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:23.804Z",
+      "lastChecked": "2026-08-20T13:59:58.642Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -178,7 +182,7 @@
       ],
       "primaryUrl": "https://www.hoyoverse.com/en-us/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:23.876Z",
+      "lastChecked": "2026-08-20T13:59:58.711Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -201,7 +205,7 @@
       ],
       "primaryUrl": "https://careers.blizzard.com/global/en/c/internships-jobs",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:24.174Z",
+      "lastChecked": "2026-08-20T13:59:58.759Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -223,7 +227,7 @@
       ],
       "primaryUrl": "https://www.ubisoft.com/en-us/company/careers/search?contracts=Internship&contracts=Apprenticeship%2520and%2520Professional%2520Training%2520Contract",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:24.318Z",
+      "lastChecked": "2026-08-20T13:59:58.864Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -245,7 +249,7 @@
       ],
       "primaryUrl": "https://careers.take2games.com/jobs",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:24.744Z",
+      "lastChecked": "2026-08-20T13:59:59.071Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -267,7 +271,7 @@
       ],
       "primaryUrl": "https://jobs.ea.com/en_US/careers/Home/?4537=8693&4537_format=3020&listFilterMode=1",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:24.772Z",
+      "lastChecked": "2026-08-20T13:59:59.197Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -290,7 +294,7 @@
       ],
       "primaryUrl": "https://www.epicgames.com/site/en-US/earlycareers/career-paths",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:24.852Z",
+      "lastChecked": "2026-08-20T14:00:00.187Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -312,7 +316,7 @@
       ],
       "primaryUrl": "https://www.obsidian.net/careers/internships#open-positions",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:24.930Z",
+      "lastChecked": "2026-08-20T14:00:00.240Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -334,7 +338,7 @@
       ],
       "primaryUrl": "https://careers.activision.com/search-results?keywords=intern",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:25.226Z",
+      "lastChecked": "2026-08-20T14:00:00.286Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -355,9 +359,9 @@
         "https://careers.garena.com/global/application/J02095938"
       ],
       "primaryUrl": "https://careers.garena.com/global/application/J02095938",
-      "trackingStatus": "open",
-      "lastChecked": "2026-08-20T13:53:25.710Z",
-      "lastChanged": "2026-08-20T13:53:25.710Z",
+      "trackingStatus": "watching",
+      "lastChecked": "2026-08-20T14:00:00.359Z",
+      "lastChanged": "2026-08-20T14:00:00.359Z",
       "addedAt": "2026-08-20"
     },
     {
@@ -378,7 +382,7 @@
       ],
       "primaryUrl": "https://tencent.wd1.myworkdayjobs.com/Lightspeed/job/US-Washington-Bellevue/Game-Research---Development-Intern--Engine-Research_R107363",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:25.743Z",
+      "lastChecked": "2026-08-20T14:00:01.090Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -400,7 +404,7 @@
       ],
       "primaryUrl": "https://insomniac.games/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:25.845Z",
+      "lastChecked": "2026-08-20T14:00:01.721Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -422,7 +426,7 @@
       ],
       "primaryUrl": "https://job-boards.greenhouse.io/zyngaearlycareers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:26.164Z",
+      "lastChecked": "2026-08-20T14:00:01.798Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -444,7 +448,7 @@
       ],
       "primaryUrl": "https://2k.com/careers/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:26.556Z",
+      "lastChecked": "2026-08-20T14:00:01.826Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -466,7 +470,7 @@
       ],
       "primaryUrl": "https://careers.scopely.com/us/en/c/game-design-and-production-jobs",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:26.597Z",
+      "lastChecked": "2026-08-20T14:00:01.926Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -488,7 +492,7 @@
       ],
       "primaryUrl": "https://careers.playstation.com/early-careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:26.713Z",
+      "lastChecked": "2026-08-20T14:00:01.943Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -510,7 +514,7 @@
       ],
       "primaryUrl": "https://www.thecoalitionstudio.com/careers/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:27.126Z",
+      "lastChecked": "2026-08-20T14:00:02.173Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -532,7 +536,7 @@
       ],
       "primaryUrl": "https://www.bandainamcoent.com/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:27.772Z",
+      "lastChecked": "2026-08-20T14:00:02.647Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -554,7 +558,7 @@
       ],
       "primaryUrl": "https://www.nexon.com/nexon-america/en/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:27.786Z",
+      "lastChecked": "2026-08-20T14:00:03.412Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -576,7 +580,7 @@
       ],
       "primaryUrl": "https://careers.nintendo.com/jobs",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:27.858Z",
+      "lastChecked": "2026-08-20T14:00:03.421Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -598,7 +602,7 @@
       ],
       "primaryUrl": "https://job-boards.greenhouse.io/hasbro/?field_4416281009%5B%5D=9941354009",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:27.949Z",
+      "lastChecked": "2026-08-20T14:00:03.425Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -620,7 +624,7 @@
       ],
       "primaryUrl": "https://company.wizards.com/en/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.006Z",
+      "lastChecked": "2026-08-20T14:00:03.486Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -642,7 +646,7 @@
       ],
       "primaryUrl": "https://jobs.jobvite.com/capcomusa",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.009Z",
+      "lastChecked": "2026-08-20T14:00:03.595Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -664,7 +668,7 @@
       ],
       "primaryUrl": "https://apply.workable.com/square-enix-america/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.058Z",
+      "lastChecked": "2026-08-20T14:00:03.661Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -686,7 +690,7 @@
       ],
       "primaryUrl": "https://job-boards.greenhouse.io/kraftonamericas",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.075Z",
+      "lastChecked": "2026-08-20T14:00:03.742Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -708,7 +712,7 @@
       ],
       "primaryUrl": "https://nca.ncsoft.com/en-US/careers/11355",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.102Z",
+      "lastChecked": "2026-08-20T14:00:03.800Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -730,7 +734,7 @@
       ],
       "primaryUrl": "https://ironveilgames.com/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.187Z",
+      "lastChecked": "2026-08-20T14:00:03.828Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -752,7 +756,7 @@
       ],
       "primaryUrl": "https://megacatstudios.com/pages/jobs",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.291Z",
+      "lastChecked": "2026-08-20T14:00:03.917Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -774,7 +778,7 @@
       ],
       "primaryUrl": "https://serenityforge.com/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.315Z",
+      "lastChecked": "2026-08-20T14:00:04.030Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -796,7 +800,7 @@
       ],
       "primaryUrl": "https://www.velanstudios.com/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.468Z",
+      "lastChecked": "2026-08-20T14:00:04.326Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -818,7 +822,7 @@
       ],
       "primaryUrl": "https://schellgames.com/careers",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.587Z",
+      "lastChecked": "2026-08-20T14:00:04.407Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -840,7 +844,7 @@
       ],
       "primaryUrl": "https://heavyiron.games/careers-old/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.604Z",
+      "lastChecked": "2026-08-20T14:00:04.708Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -862,7 +866,7 @@
       ],
       "primaryUrl": "https://survios.com/studio/careers/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.734Z",
+      "lastChecked": "2026-08-20T14:00:04.864Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -884,7 +888,7 @@
       ],
       "primaryUrl": "https://www.solarashkingdomgame.com/contact",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.809Z",
+      "lastChecked": "2026-08-20T14:00:05.171Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -906,7 +910,7 @@
       ],
       "primaryUrl": "https://aggrocrab.com/Jobs",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.843Z",
+      "lastChecked": "2026-08-20T14:00:06.097Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -928,7 +932,7 @@
       ],
       "primaryUrl": "https://younghorsesgames.com/jobs/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:28.933Z",
+      "lastChecked": "2026-08-20T14:00:06.275Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -950,7 +954,7 @@
       ],
       "primaryUrl": "https://www.hiddenpath.com/join-us/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:29.039Z",
+      "lastChecked": "2026-08-20T14:00:06.506Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -971,9 +975,9 @@
         "https://www.probablymonsters.com/en/careers/"
       ],
       "primaryUrl": "https://www.probablymonsters.com/en/careers/",
-      "trackingStatus": "open",
-      "lastChecked": "2026-08-20T13:53:29.098Z",
-      "lastChanged": "2026-08-20T13:53:29.098Z",
+      "trackingStatus": "watching",
+      "lastChecked": "2026-08-20T14:00:06.606Z",
+      "lastChanged": "2026-08-20T14:00:06.606Z",
       "addedAt": "2026-08-20"
     },
     {
@@ -994,7 +998,7 @@
       ],
       "primaryUrl": "https://panicbuttongames.com/careers/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:29.114Z",
+      "lastChecked": "2026-08-20T14:00:06.609Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1016,7 +1020,7 @@
       ],
       "primaryUrl": "https://massdigi.org/programs-services/summer-innovation-program/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:29.176Z",
+      "lastChecked": "2026-08-20T14:00:06.645Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1038,7 +1042,7 @@
       ],
       "primaryUrl": "https://jobs.ashbyhq.com/tapblaze/0e2eb53a-52b2-4d19-bc2f-b35413aeaa2d",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:29.515Z",
+      "lastChecked": "2026-08-20T14:00:06.712Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1060,7 +1064,7 @@
       ],
       "primaryUrl": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:29.620Z",
+      "lastChecked": "2026-08-20T14:00:06.926Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1081,9 +1085,9 @@
         "https://careers.adobe.com/us/en/intern-and-graduate"
       ],
       "primaryUrl": "https://careers.adobe.com/us/en/intern-and-graduate",
-      "trackingStatus": "open",
-      "lastChecked": "2026-08-20T13:53:29.665Z",
-      "lastChanged": "2026-08-20T13:53:29.665Z",
+      "trackingStatus": "watching",
+      "lastChecked": "2026-08-20T14:00:07.025Z",
+      "lastChanged": "2026-08-20T14:00:07.025Z",
       "addedAt": "2026-08-20"
     },
     {
@@ -1104,7 +1108,7 @@
       ],
       "primaryUrl": "https://www.figma.com/careers/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:29.699Z",
+      "lastChecked": "2026-08-20T14:00:07.070Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1126,7 +1130,7 @@
       ],
       "primaryUrl": "https://www.metacareers.com/careerprograms/students/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:29.793Z",
+      "lastChecked": "2026-08-20T14:00:07.305Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1148,7 +1152,7 @@
       ],
       "primaryUrl": "https://careers.snap.com/emerging-talent",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:30.288Z",
+      "lastChecked": "2026-08-20T14:00:07.336Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1170,7 +1174,7 @@
       ],
       "primaryUrl": "https://unity.com/careers/positions",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:30.369Z",
+      "lastChecked": "2026-08-20T14:00:07.363Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1192,7 +1196,7 @@
       ],
       "primaryUrl": "https://www.pixar.com/internships",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:30.489Z",
+      "lastChecked": "2026-08-20T14:00:07.813Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1214,7 +1218,7 @@
       ],
       "primaryUrl": "https://www.autodesk.com/careers/students",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:30.725Z",
+      "lastChecked": "2026-08-20T14:00:08.175Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1236,7 +1240,7 @@
       ],
       "primaryUrl": "https://careers.amd.com/students/jobs",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:30.879Z",
+      "lastChecked": "2026-08-20T14:00:08.215Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1258,7 +1262,7 @@
       ],
       "primaryUrl": "https://jobs.intel.com/en/internships",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:30.909Z",
+      "lastChecked": "2026-08-20T14:00:08.286Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1280,7 +1284,7 @@
       ],
       "primaryUrl": "https://careers.microsoft.com/v2/global/en/universityinternship",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:31.237Z",
+      "lastChecked": "2026-08-20T14:00:08.748Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1302,7 +1306,7 @@
       ],
       "primaryUrl": "https://www.cloudflare.com/careers/early-talent/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:31.271Z",
+      "lastChecked": "2026-08-20T14:00:08.826Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1324,7 +1328,7 @@
       ],
       "primaryUrl": "https://careers.pinterest.com/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:31.693Z",
+      "lastChecked": "2026-08-20T14:00:09.209Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1346,7 +1350,7 @@
       ],
       "primaryUrl": "https://www.jpl.nasa.gov/edu/internships/apply/jpl-summer-internship-program/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:31.878Z",
+      "lastChecked": "2026-08-20T14:00:09.570Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1368,7 +1372,7 @@
       ],
       "primaryUrl": "https://computing.llnl.gov/careers/interns",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:31.935Z",
+      "lastChecked": "2026-08-20T14:00:09.819Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1391,7 +1395,7 @@
       ],
       "primaryUrl": "https://www.sandia.gov/careers/careers/students-and-postdocs/internships-co-ops/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:32.247Z",
+      "lastChecked": "2026-08-20T14:00:09.844Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1413,7 +1417,7 @@
       ],
       "primaryUrl": "https://www.ll.mit.edu/careers/student-opportunities/summer-research-program",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:32.325Z",
+      "lastChecked": "2026-08-20T14:00:10.032Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1435,7 +1439,7 @@
       ],
       "primaryUrl": "https://hcii.cmu.edu/summer-research-program",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:32.458Z",
+      "lastChecked": "2026-08-20T14:00:10.077Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1457,7 +1461,7 @@
       ],
       "primaryUrl": "https://penn-repl.github.io/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:32.576Z",
+      "lastChecked": "2026-08-20T14:00:10.424Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1479,7 +1483,7 @@
       ],
       "primaryUrl": "https://www.humansmove.org/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:32.641Z",
+      "lastChecked": "2026-08-20T14:00:10.475Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1501,7 +1505,7 @@
       ],
       "primaryUrl": "https://www.nsf.gov/funding/initiatives/reu/search?exposed_form_display=1&query=human&sort=search_api_relevance_DESC",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:32.961Z",
+      "lastChecked": "2026-08-20T14:00:10.721Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1523,7 +1527,7 @@
       ],
       "primaryUrl": "https://www.rit.edu/computing/reu/",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.095Z",
+      "lastChecked": "2026-08-20T14:00:10.736Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1545,7 +1549,7 @@
       ],
       "primaryUrl": "https://www.pathwaystoscience.org/programs.aspx",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.297Z",
+      "lastChecked": "2026-08-20T14:00:10.761Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1567,7 +1571,7 @@
       ],
       "primaryUrl": "https://www.pathwaystoscience.org/programhub.aspx?sort=SUM-EquiTechFutures-Scholars2",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.342Z",
+      "lastChecked": "2026-08-20T14:00:11.031Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1589,7 +1593,7 @@
       ],
       "primaryUrl": "https://www.pathwaystoscience.org/programhub.aspx?sort=SUM-Harvard-EngineerAppliedSc",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.476Z",
+      "lastChecked": "2026-08-20T14:00:11.113Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
@@ -1611,13 +1615,13 @@
       ],
       "primaryUrl": "https://www.pathwaystoscience.org/programhub.aspx?sort=SUM-UNCCharlotte-CompResearch",
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.626Z",
+      "lastChecked": "2026-08-20T14:00:11.214Z",
       "lastChanged": null,
       "addedAt": "2026-08-20"
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.634Z",
+      "lastChecked": "2026-08-20T14:00:11.310Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "amazon-games",
@@ -1637,7 +1641,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.662Z",
+      "lastChecked": "2026-08-20T14:00:11.373Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "rockstar-games",
@@ -1658,7 +1662,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.726Z",
+      "lastChecked": "2026-08-20T14:00:11.382Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "bungie",
@@ -1678,7 +1682,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.784Z",
+      "lastChecked": "2026-08-20T14:00:11.729Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "respawn-entertainment",
@@ -1698,7 +1702,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.853Z",
+      "lastChecked": "2026-08-20T14:00:11.864Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "gearbox-software",
@@ -1718,7 +1722,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:33.974Z",
+      "lastChecked": "2026-08-20T14:00:11.914Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "second-dinner",
@@ -1738,7 +1742,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:34.119Z",
+      "lastChecked": "2026-08-20T14:00:12.216Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "certain-affinity",
@@ -1758,7 +1762,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:34.413Z",
+      "lastChecked": "2026-08-20T14:00:12.305Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "jam-city",
@@ -1778,7 +1782,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:34.456Z",
+      "lastChecked": "2026-08-20T14:00:12.322Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "girls-make-games-scholarship",
@@ -1799,7 +1803,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:34.567Z",
+      "lastChecked": "2026-08-20T14:00:12.467Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "igda-foundation",
@@ -1819,7 +1823,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:34.622Z",
+      "lastChecked": "2026-08-20T14:00:13.407Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "discord",
@@ -1839,7 +1843,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T13:53:34.751Z",
+      "lastChecked": "2026-08-20T14:00:13.571Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "netflix-games",
