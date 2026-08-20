@@ -16,6 +16,24 @@ function rowsFor(items) {
     .join("");
 }
 
+function rowsWithDayCount(items) {
+  return items
+    .map((item) => {
+      const daysOpen = item.lastChanged
+        ? Math.floor((Date.now() - new Date(item.lastChanged).getTime()) / (24 * 60 * 60 * 1000)) + 1
+        : 1;
+      return `
+        <tr>
+          <td style="padding:8px 12px;border-bottom:1px solid #eee;"><strong>${escapeHtml(item.program)}</strong><br/>
+            <span style="color:#666;font-size:13px;">${escapeHtml(item.category)}</span></td>
+          <td style="padding:8px 12px;border-bottom:1px solid #eee;">
+            <a href="${item.primaryUrl}">${escapeHtml(item.primaryUrl)}</a></td>
+          <td style="padding:8px 12px;border-bottom:1px solid #eee;color:#666;font-size:13px;">Day ${daysOpen} of 7</td>
+        </tr>`;
+    })
+    .join("");
+}
+
 async function sendViaResend({ subject, html }) {
   if (!RESEND_API_KEY || !TO_EMAIL) {
     console.log("Skipping email: RESEND_API_KEY or TO_EMAIL not set.");
@@ -37,23 +55,47 @@ async function sendViaResend({ subject, html }) {
   }
 }
 
-export async function sendDigestEmail(newlyOpened) {
-  if (newlyOpened.length === 0) return;
+// items: everything currently "open" and opened within the last 7 days.
+// newlyOpenedIds: the subset that just flipped open today (Set of ids) — used
+// to split the email into a "new today" section and a "reminder" section.
+// Anything whose lastChanged ages past 7 days simply won't be in `items` on a
+// later run, so it stops appearing in the email on its own — the listing
+// itself stays "open" on the site, only the reminder emails stop.
+export async function sendDigestEmail(items, newlyOpenedIds = new Set()) {
+  if (items.length === 0) return;
+
+  const newToday = items.filter((i) => newlyOpenedIds.has(i.id));
+  const reminders = items.filter((i) => !newlyOpenedIds.has(i.id));
+
+  const sections = [
+    newToday.length
+      ? `<h3>🆕 New today (${newToday.length})</h3>
+         <table style="border-collapse:collapse;width:100%;">${rowsFor(newToday)}</table>`
+      : "",
+    reminders.length
+      ? `<h3>⏰ Still open — daily reminder for up to 7 days (${reminders.length})</h3>
+         <table style="border-collapse:collapse;width:100%;">${rowsWithDayCount(reminders)}</table>`
+      : "",
+  ]
+    .filter(Boolean)
+    .join("");
 
   const html = `
-    <h2>🎮 New internship listings detected</h2>
-    <p>${newlyOpened.length} listing(s) just flipped from "watching" to "open" on your gdinternships tracker.</p>
-    <table style="border-collapse:collapse;width:100%;">${rowsFor(newlyOpened)}</table>
+    <h2>🎮 Open internship listings</h2>
+    ${sections}
     <p style="margin-top:16px;color:#666;font-size:13px;">
       Detection is a best-effort heuristic based on scanning each careers page — always confirm on the
-      company site before assuming applications are live.
+      company site before assuming applications are live. Reminders stop automatically 7 days after a
+      listing first opened; the site keeps tracking it as open regardless.
     </p>`;
 
   await sendViaResend({
-    subject: `🎮 ${newlyOpened.length} new game internship listing${newlyOpened.length > 1 ? "s" : ""} open`,
+    subject: newToday.length
+      ? `🎮 ${newToday.length} new game internship listing${newToday.length > 1 ? "s" : ""} open`
+      : `🎮 Reminder: ${reminders.length} internship listing${reminders.length > 1 ? "s" : ""} still open`,
     html,
   });
-  console.log(`Email sent for ${newlyOpened.length} new listing(s).`);
+  console.log(`Email sent: ${newToday.length} new, ${reminders.length} reminder(s).`);
 }
 
 export async function sendDiscoveryEmail(newlyDiscovered) {

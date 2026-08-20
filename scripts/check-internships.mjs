@@ -149,14 +149,18 @@ async function runPool(items, worker, concurrency) {
   return results;
 }
 
+const REMINDER_WINDOW_MS = 7 * 24 * 60 * 60 * 1000; // remind daily for a week, then stop
+
 async function main() {
   const raw = await readFile(DATA_PATH, "utf8");
   const data = JSON.parse(raw);
 
   const updated = await runPool(data.internships, checkOne, CONCURRENCY);
 
-  const newlyOpened = updated.filter(
-    (item, i) => item.trackingStatus === "open" && data.internships[i].trackingStatus !== "open"
+  const newlyOpenedIds = new Set(
+    updated
+      .filter((item, i) => item.trackingStatus === "open" && data.internships[i].trackingStatus !== "open")
+      .map((item) => item.id)
   );
 
   const out = {
@@ -166,11 +170,24 @@ async function main() {
   };
 
   await writeFile(DATA_PATH, JSON.stringify(out, null, 2) + "\n");
-  console.log(`Checked ${updated.length} internships. ${newlyOpened.length} newly open.`);
+  console.log(`Checked ${updated.length} internships. ${newlyOpenedIds.size} newly open.`);
 
-  if (newlyOpened.length > 0) {
+  // Email daily for anything open and opened within the last 7 days — new
+  // opens included as "new," older-but-still-recent ones as a reminder — then
+  // it naturally drops out of every future digest once lastChanged ages past
+  // the window (the listing itself stays "open" on the site; this only
+  // affects the email reminder cadence).
+  const now = Date.now();
+  const recentOpens = updated.filter(
+    (item) =>
+      item.trackingStatus === "open" &&
+      item.lastChanged &&
+      now - new Date(item.lastChanged).getTime() <= REMINDER_WINDOW_MS
+  );
+
+  if (recentOpens.length > 0) {
     try {
-      await sendDigestEmail(newlyOpened);
+      await sendDigestEmail(recentOpens, newlyOpenedIds);
     } catch (err) {
       // Don't let an email failure discard the data update above — log and exit 0.
       console.error(`Email send failed: ${err.message}`);
