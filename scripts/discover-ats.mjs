@@ -1,6 +1,9 @@
 import { readFile } from "node:fs/promises";
+import { classifyDegreeLevel } from "./lib/degree-level.mjs";
+import { classifyRegion } from "./lib/location.mjs";
 
 const WATCHLIST_PATH = new URL("../data/ats-watchlist.json", import.meta.url);
+const EXCEPTIONS_PATH = new URL("../data/location-exceptions.json", import.meta.url);
 const TIMEOUT_MS = 15_000;
 const INTERN_WORD_RE = /\bintern(?:ship)?s?\b/i;
 
@@ -34,17 +37,32 @@ async function fetchJson(url) {
 
 async function fetchGreenhouseJobs(slug) {
   const data = await fetchJson(`https://boards-api.greenhouse.io/v1/boards/${slug}/jobs?content=true`);
-  return (data.jobs || []).map((j) => ({ title: j.title, url: j.absolute_url }));
+  return (data.jobs || []).map((j) => ({
+    title: j.title,
+    url: j.absolute_url,
+    location: j.location?.name || null,
+    content: j.content || null,
+  }));
 }
 
 async function fetchLeverJobs(slug) {
   const data = await fetchJson(`https://api.lever.co/v0/postings/${slug}?mode=json`);
-  return (data || []).map((j) => ({ title: j.text, url: j.hostedUrl }));
+  return (data || []).map((j) => ({
+    title: j.text,
+    url: j.hostedUrl,
+    location: j.categories?.location || null,
+    content: j.descriptionPlain || j.description || null,
+  }));
 }
 
 async function fetchAshbyJobs(slug) {
   const data = await fetchJson(`https://api.ashbyhq.com/posting-api/job-board/${slug}`);
-  return (data.jobs || []).map((j) => ({ title: j.title, url: j.jobUrl || j.applyUrl }));
+  return (data.jobs || []).map((j) => ({
+    title: j.title,
+    url: j.jobUrl || j.applyUrl,
+    location: j.location || j.locationName || null,
+    content: j.descriptionPlain || null,
+  }));
 }
 
 const FETCHERS = {
@@ -59,6 +77,11 @@ const FETCHERS = {
 // employer's own job board, not a heuristic guess.
 export async function discoverAts(existingInternships) {
   const watchlist = JSON.parse(await readFile(WATCHLIST_PATH, "utf8"));
+  const exceptions = await readFile(EXCEPTIONS_PATH, "utf8")
+    .then((raw) => JSON.parse(raw))
+    .catch(() => []);
+  const exceptionsLower = new Set(exceptions.map((c) => c.toLowerCase()));
+
   const existingUrls = new Set(existingInternships.flatMap((i) => i.links || []));
   const existingIds = new Set(existingInternships.map((i) => i.id));
 
@@ -79,6 +102,13 @@ export async function discoverAts(existingInternships) {
         const id = slugifyId(`${entry.company}-${job.title}`);
         if (existingIds.has(id)) continue;
         existingIds.add(id);
+
+        const region = classifyRegion({ company: entry.company, title: job.title, locationText: job.location });
+        const isException = exceptionsLower.has(entry.company.toLowerCase());
+        if (region === "international" && !isException) continue;
+
+        const degreeLevel = classifyDegreeLevel([job.title, job.content].filter(Boolean).join(" "));
+
         found.push({
           id,
           company: entry.company,
@@ -89,7 +119,7 @@ export async function discoverAts(existingInternships) {
           target: "Summer 2027",
           postingWindow: "live posting found via employer job board API.",
           eligibility: null,
-          focus: null,
+          focus: job.location ? `Location: ${job.location}` : null,
           statusNote: null,
           fit: `Discovered via ${entry.company}'s public ${entry.provider} job board.`,
           links: [job.url],
@@ -99,6 +129,8 @@ export async function discoverAts(existingInternships) {
           lastChanged: new Date().toISOString(),
           addedAt: new Date().toISOString().slice(0, 10),
           discoveredBy: "ats-scan",
+          degreeLevel,
+          region,
         });
       }
     } catch (err) {

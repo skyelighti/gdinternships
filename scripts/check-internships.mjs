@@ -104,7 +104,20 @@ async function checkOne(item) {
     const nowChecked = { ...item, lastChecked: now };
 
     if (!ok && (status === 404 || status === 410)) {
-      // Page gone — leave status as-is, just record the check.
+      // Page gone — the posting was pulled down. Revert to watching.
+      return item.trackingStatus === "open"
+        ? { ...nowChecked, trackingStatus: "watching", lastChanged: now }
+        : nowChecked;
+    }
+
+    // Entries sourced from an ATS job-board API (discover-ats.mjs) point at a
+    // specific live job posting, not a generic careers page — and those
+    // posting pages are typically client-rendered SPAs, so a plain fetch only
+    // sees an empty shell with no "intern"/season text to match. The text
+    // heuristic below would false-negative and wrongly revert them. For these,
+    // a non-404/410 response IS the confirmation it's still live — skip the
+    // heuristic and leave status as-is.
+    if (item.discoveredBy === "ats-scan") {
       return nowChecked;
     }
 

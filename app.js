@@ -16,6 +16,8 @@ const state = {
   category: "all",
   gameOnly: true,
   openOnly: false,
+  undergradOnly: true,
+  usZhOnly: true,
   query: "",
 };
 
@@ -65,12 +67,22 @@ function attachControls() {
     state.openOnly = e.target.checked;
     render();
   });
+  document.getElementById("undergrad-only").addEventListener("change", (e) => {
+    state.undergradOnly = e.target.checked;
+    render();
+  });
+  document.getElementById("us-zh-only").addEventListener("change", (e) => {
+    state.usZhOnly = e.target.checked;
+    render();
+  });
 }
 
 function matches(item) {
   if (state.category !== "all" && item.category !== state.category) return false;
   if (state.gameOnly && state.category === "all" && !GAME_CATEGORIES.has(item.category)) return false;
   if (state.openOnly && item.trackingStatus !== "open") return false;
+  if (state.undergradOnly && item.degreeLevel === "grad") return false;
+  if (state.usZhOnly && item.region === "international") return false;
   if (state.query) {
     const haystack = [item.program, item.company, item.focus, item.fit]
       .filter(Boolean)
@@ -127,7 +139,7 @@ function renderCard(item) {
     <div class="card">
       <div class="card-top">
         <div>
-          <div class="tag">${escapeHtml(CATEGORY_LABELS[item.category] || item.category)}</div>
+          <div class="tag">${escapeHtml(CATEGORY_LABELS[item.category] || item.category)}${item.region === "zh" ? " · CN" : ""}${item.degreeLevel === "grad" ? " · Grad" : ""}</div>
           <h3>${escapeHtml(item.program)}</h3>
         </div>
         <span class="badge ${isOpen ? "open" : "watching"}">${isOpen ? "Open" : "Watching"}</span>

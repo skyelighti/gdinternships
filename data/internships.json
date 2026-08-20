@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T14:29:01.858Z",
+  "updatedAt": "2026-08-20T14:36:33.731Z",
   "source": "seed (Trello board) + AI-assisted research pass, Aug 2026",
   "internships": [
     {
@@ -23,7 +23,9 @@
       "lastChecked": "2026-08-20T14:28:24.628Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
-      "matchTerm": "explore"
+      "matchTerm": "explore",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "nvidia-ignite",
@@ -46,7 +48,9 @@
       "lastChecked": "2026-08-20T14:28:24.680Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
-      "matchTerm": "ignite"
+      "matchTerm": "ignite",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "two-sigma-first-year-swe",
@@ -70,7 +74,9 @@
       "lastChecked": "2026-08-20T14:28:24.682Z",
       "lastChanged": "2026-08-20T13:59:58.522Z",
       "addedAt": "2026-08-20",
-      "matchTerm": "first year|first-year|houston"
+      "matchTerm": "first year|first-year|houston",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "uberstar",
@@ -93,7 +99,9 @@
       "lastChecked": "2026-08-20T14:28:24.683Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
-      "matchTerm": "star|emerging talent"
+      "matchTerm": "star|emerging talent",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "roblox",
@@ -116,7 +124,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:24.683Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "warner-bros-games-internship",
@@ -138,7 +148,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:24.848Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "riot-games",
@@ -162,7 +174,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:24.912Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "hoyoverse",
@@ -184,7 +198,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:25.054Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "blizzard-entertainment",
@@ -207,7 +223,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:25.088Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "ubisoft",
@@ -229,7 +247,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:25.193Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "take-two-interactive",
@@ -251,7 +271,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:25.485Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "electronic-arts-ea",
@@ -273,7 +295,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:25.786Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "epic-games",
@@ -296,7 +320,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:26.203Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "obsidian-entertainment",
@@ -318,7 +344,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:26.275Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "activision",
@@ -340,7 +368,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:26.351Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "garena",
@@ -362,7 +392,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:26.802Z",
       "lastChanged": "2026-08-20T14:00:00.359Z",
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "tencent-lightspeed-studios",
@@ -384,7 +416,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:26.998Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "insomniac-games",
@@ -406,7 +440,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:27.219Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "zynga-early-careers",
@@ -428,7 +464,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:27.520Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "2k-games",
@@ -450,7 +488,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:27.759Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "scopely",
@@ -472,7 +512,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:27.864Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "playstation-early-careers",
@@ -494,7 +536,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:28.011Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "the-coalition",
@@ -516,7 +560,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:28.443Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "bandai-namco-entertainment",
@@ -538,7 +584,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:28.570Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "nexon-america",
@@ -560,7 +608,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:28.808Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "nintendo",
@@ -582,7 +632,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:28.995Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "hasbro",
@@ -604,7 +656,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:29.104Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "wizards-of-the-coast",
@@ -626,7 +680,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:29.227Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "capcom-usa",
@@ -648,7 +704,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:29.567Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "square-enix-america",
@@ -670,7 +728,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:29.678Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "krafton-americas",
@@ -692,7 +752,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:29.829Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "ncsoft",
@@ -714,7 +776,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:29.858Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "international"
     },
     {
       "id": "ironveil-game-studio-gameplay-swe-internship",
@@ -736,7 +800,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:29.995Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "mega-cat-studios-applicant-pool",
@@ -758,7 +824,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:30.181Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "serenity-forge-junior-intern-watch",
@@ -780,7 +848,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:30.201Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "velan-studios-programmer-intern",
@@ -802,7 +872,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:30.536Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "schell-games-summer-internship",
@@ -824,7 +896,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:30.569Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "heavy-iron-studios-game-programmer-intern",
@@ -846,7 +920,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.059Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "survios-internship-program",
@@ -868,7 +944,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.235Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "heart-machine",
@@ -890,7 +968,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.306Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "aggro-crab",
@@ -912,7 +992,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.476Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "young-horses",
@@ -934,7 +1016,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.545Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "hidden-path-entertainment",
@@ -956,7 +1040,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.678Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "probablymonsters",
@@ -978,7 +1064,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.903Z",
       "lastChanged": "2026-08-20T14:00:06.606Z",
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "panic-button",
@@ -1000,7 +1088,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.947Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "massdigi-summer-innovation-program",
@@ -1022,7 +1112,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:31.972Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "tapblaze-game-design-internship",
@@ -1044,7 +1136,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:32.181Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "nvidia-internship",
@@ -1066,7 +1160,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:32.217Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "adobe-internship",
@@ -1088,7 +1184,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:32.276Z",
       "lastChanged": "2026-08-20T14:00:07.025Z",
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "figma-internship",
@@ -1110,7 +1208,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:32.388Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "meta-internship",
@@ -1132,7 +1232,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:32.581Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "snap-internship",
@@ -1154,7 +1256,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:32.583Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "unity-technologies",
@@ -1176,7 +1280,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:32.721Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "pixar-technology-internship",
@@ -1198,7 +1304,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:33.309Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "autodesk-internship",
@@ -1220,7 +1328,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:33.583Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "amd-internship",
@@ -1242,7 +1352,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:33.676Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "intel-internship",
@@ -1264,7 +1376,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:33.686Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "microsoft-university-internship",
@@ -1286,7 +1400,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:33.896Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "cloudflare-internship",
@@ -1308,7 +1424,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:34.263Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "pinterest-internship",
@@ -1330,7 +1448,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:34.498Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "nasa-jpl-summer-internship",
@@ -1352,7 +1472,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:35.038Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "lawrence-livermore-computing-internship",
@@ -1374,7 +1496,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:35.087Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "sandia-national-laboratories",
@@ -1397,7 +1521,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:35.195Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "mit-lincoln-laboratory-summer-research",
@@ -1419,7 +1545,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:35.296Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "cmu-hcii-summer-research-program",
@@ -1441,7 +1569,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:35.371Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "penn-repl",
@@ -1463,7 +1593,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:35.813Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "humans-move",
@@ -1485,7 +1617,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:35.986Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "nsf-reu-search",
@@ -1507,7 +1641,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:36.244Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "rit-computing-reu",
@@ -1529,7 +1665,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:36.372Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "pathways-to-science-summer-programs",
@@ -1551,7 +1689,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:36.399Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "equitech-futures-scholars",
@@ -1573,7 +1713,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:36.841Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "harvard-engineering-applied-sciences-summer-program",
@@ -1595,7 +1737,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:36.920Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "unc-charlotte-computing-research",
@@ -1617,7 +1761,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:36.974Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1637,7 +1783,9 @@
       "links": [
         "https://www.amazon.jobs/en/teams/amazon-game-studios"
       ],
-      "primaryUrl": "https://www.amazon.jobs/en/teams/amazon-game-studios"
+      "primaryUrl": "https://www.amazon.jobs/en/teams/amazon-game-studios",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1658,7 +1806,9 @@
         "https://job-boards.greenhouse.io/rsgur",
         "https://www.rockstargames.com/careers"
       ],
-      "primaryUrl": "https://job-boards.greenhouse.io/rsgur"
+      "primaryUrl": "https://job-boards.greenhouse.io/rsgur",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1678,7 +1828,9 @@
       "links": [
         "https://careers.bungie.com/teams/internship"
       ],
-      "primaryUrl": "https://careers.bungie.com/teams/internship"
+      "primaryUrl": "https://careers.bungie.com/teams/internship",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1698,7 +1850,9 @@
       "links": [
         "https://www.ea.com/careers/interns-and-university-graduates"
       ],
-      "primaryUrl": "https://www.ea.com/careers/interns-and-university-graduates"
+      "primaryUrl": "https://www.ea.com/careers/interns-and-university-graduates",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1718,7 +1872,9 @@
       "links": [
         "https://www.gearboxsoftware.com/careers/"
       ],
-      "primaryUrl": "https://www.gearboxsoftware.com/careers/"
+      "primaryUrl": "https://www.gearboxsoftware.com/careers/",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1738,7 +1894,9 @@
       "links": [
         "https://jobs.ashbyhq.com/seconddinner"
       ],
-      "primaryUrl": "https://jobs.ashbyhq.com/seconddinner"
+      "primaryUrl": "https://jobs.ashbyhq.com/seconddinner",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1758,7 +1916,9 @@
       "links": [
         "https://www.certainaffinity.com/careers/"
       ],
-      "primaryUrl": "https://www.certainaffinity.com/careers/"
+      "primaryUrl": "https://www.certainaffinity.com/careers/",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1778,7 +1938,9 @@
       "links": [
         "https://www.jamcity.com/careers/"
       ],
-      "primaryUrl": "https://www.jamcity.com/careers/"
+      "primaryUrl": "https://www.jamcity.com/careers/",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1799,7 +1961,9 @@
       "links": [
         "https://www.gmgsf.org/college-scholarships"
       ],
-      "primaryUrl": "https://www.gmgsf.org/college-scholarships"
+      "primaryUrl": "https://www.gmgsf.org/college-scholarships",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1819,7 +1983,9 @@
       "links": [
         "https://www.igdafoundation.org/programs"
       ],
-      "primaryUrl": "https://www.igdafoundation.org/programs"
+      "primaryUrl": "https://www.igdafoundation.org/programs",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1839,7 +2005,9 @@
       "links": [
         "https://discord.com/jobs"
       ],
-      "primaryUrl": "https://discord.com/jobs"
+      "primaryUrl": "https://discord.com/jobs",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1859,7 +2027,9 @@
       "links": [
         "https://jobs.netflix.com/careers/internships"
       ],
-      "primaryUrl": "https://jobs.netflix.com/careers/internships"
+      "primaryUrl": "https://jobs.netflix.com/careers/internships",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "games-for-change",
@@ -1881,7 +2051,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:39.995Z",
       "lastChanged": null,
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "gdc-conference-associate",
@@ -1904,7 +2076,9 @@
       "trackingStatus": "watching",
       "lastChecked": "2026-08-20T14:28:40.194Z",
       "lastChanged": "2026-08-20T14:28:40.194Z",
-      "addedAt": "2026-08-20"
+      "addedAt": "2026-08-20",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1924,7 +2098,9 @@
       "links": [
         "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
       ],
-      "primaryUrl": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
+      "primaryUrl": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1945,7 +2121,9 @@
       "links": [
         "https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities/americas"
       ],
-      "primaryUrl": "https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities/americas"
+      "primaryUrl": "https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities/americas",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -1965,7 +2143,9 @@
       "links": [
         "https://www.janestreet.com/join-jane-street/"
       ],
-      "primaryUrl": "https://www.janestreet.com/join-jane-street/"
+      "primaryUrl": "https://www.janestreet.com/join-jane-street/",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "open",
@@ -1985,7 +2165,9 @@
       "links": [
         "https://www.hudsonrivertrading.com/student-opportunities/"
       ],
-      "primaryUrl": "https://www.hudsonrivertrading.com/student-opportunities/"
+      "primaryUrl": "https://www.hudsonrivertrading.com/student-opportunities/",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -2006,7 +2188,9 @@
         "https://waymo.com/careers/",
         "https://waymo.com/joinus/"
       ],
-      "primaryUrl": "https://waymo.com/careers/"
+      "primaryUrl": "https://waymo.com/careers/",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "watching",
@@ -2026,7 +2210,9 @@
       "links": [
         "https://jobs.lever.co/zoox"
       ],
-      "primaryUrl": "https://jobs.lever.co/zoox"
+      "primaryUrl": "https://jobs.lever.co/zoox",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "trackingStatus": "open",
@@ -2046,7 +2232,9 @@
       "links": [
         "https://job-boards.greenhouse.io/spacex/jobs/8621757002"
       ],
-      "primaryUrl": "https://job-boards.greenhouse.io/spacex/jobs/8621757002"
+      "primaryUrl": "https://job-boards.greenhouse.io/spacex/jobs/8621757002",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "epic-games-gameplay-programmer-intern",
@@ -2069,7 +2257,9 @@
       "lastChecked": "2026-08-20T14:28:41.194Z",
       "lastChanged": "2026-08-20T14:28:41.194Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "epic-games-machine-learning-intern",
@@ -2092,7 +2282,9 @@
       "lastChecked": "2026-08-20T14:28:41.510Z",
       "lastChanged": "2026-08-20T14:28:41.510Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "epic-games-tech-art-intern",
@@ -2115,7 +2307,9 @@
       "lastChecked": "2026-08-20T14:28:41.512Z",
       "lastChanged": "2026-08-20T14:28:41.512Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "epic-games-tools-programmer-intern",
@@ -2138,7 +2332,9 @@
       "lastChecked": "2026-08-20T14:28:41.756Z",
       "lastChanged": "2026-08-20T14:28:41.756Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "riot-games-research-intern-phd-or-master-s-contract",
@@ -2161,7 +2357,9 @@
       "lastChecked": "2026-08-20T14:28:41.803Z",
       "lastChanged": "2026-08-20T14:28:41.803Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "grad",
+      "region": "us"
     },
     {
       "id": "roblox-summer-2027-software-engineer-intern",
@@ -2184,7 +2382,9 @@
       "lastChecked": "2026-08-20T14:28:41.857Z",
       "lastChanged": "2026-08-20T14:27:53.057Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "scopely-intern-game-design-slot",
@@ -2207,7 +2407,9 @@
       "lastChecked": "2026-08-20T14:28:41.866Z",
       "lastChanged": "2026-08-20T14:28:41.866Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "international"
     },
     {
       "id": "wildlife-studios-wildlife-studios-internship-program-2027",
@@ -2230,7 +2432,9 @@
       "lastChecked": "2026-08-20T14:28:41.979Z",
       "lastChanged": "2026-08-20T14:27:53.494Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "larian-studios-gameplay-programmer-internship",
@@ -2253,7 +2457,9 @@
       "lastChecked": "2026-08-20T14:28:42.205Z",
       "lastChanged": "2026-08-20T14:28:42.205Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "international"
     },
     {
       "id": "larian-studios-level-design-internship",
@@ -2276,7 +2482,9 @@
       "lastChecked": "2026-08-20T14:28:42.327Z",
       "lastChanged": "2026-08-20T14:28:42.327Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
     },
     {
       "id": "thatgamecompany-general-engineer-intern",
@@ -2299,7 +2507,9 @@
       "lastChecked": "2026-08-20T14:28:42.439Z",
       "lastChanged": "2026-08-20T14:28:42.439Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "zh"
     },
     {
       "id": "niantic-spatial-robotics-engineering-intern-fall-2026",
@@ -2322,7 +2532,9 @@
       "lastChecked": "2026-08-20T14:28:42.710Z",
       "lastChanged": "2026-08-20T14:28:42.710Z",
       "addedAt": "2026-08-20",
-      "discoveredBy": "ats-scan"
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
     }
   ]
 }
