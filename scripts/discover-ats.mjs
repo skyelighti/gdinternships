@@ -4,6 +4,12 @@ const WATCHLIST_PATH = new URL("../data/ats-watchlist.json", import.meta.url);
 const TIMEOUT_MS = 15_000;
 const INTERN_WORD_RE = /\bintern(?:ship)?s?\b/i;
 
+// These studios' boards list every department's interns, not just game
+// design/programming ones — filter out clearly unrelated tracks so the
+// tracker doesn't fill up with e.g. "Tax Intern" or "Brand Intern" postings.
+const IRRELEVANT_TITLE_RE =
+  /\b(tax|brand|creative strategy|social media|marketing|human resources|hr\b|recruiting|talent acquisition|legal|finance|accounting|payroll|sales|business development|communications|public relations)\b/i;
+
 function slugifyId(s) {
   return s
     .toLowerCase()
@@ -65,7 +71,9 @@ export async function discoverAts(existingInternships) {
     }
     try {
       const jobs = await fetcher(entry.slug);
-      const internJobs = jobs.filter((j) => j.title && j.url && INTERN_WORD_RE.test(j.title));
+      const internJobs = jobs.filter(
+        (j) => j.title && j.url && INTERN_WORD_RE.test(j.title) && !IRRELEVANT_TITLE_RE.test(j.title)
+      );
       for (const job of internJobs) {
         if (existingUrls.has(job.url)) continue;
         const id = slugifyId(`${entry.company}-${job.title}`);
