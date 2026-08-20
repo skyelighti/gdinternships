@@ -1,0 +1,13 @@
+{
+  "name": "gdinternships",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tracker for game design and game programming internships, with automated status checks and email alerts.",
+  "scripts": {
+    "check": "node scripts/check-internships.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

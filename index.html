@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>gdinternships — Game Design &amp; Programming Internship Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>🎮 gdinternships</h1>
+    <p class="tagline">Tracking game design &amp; game programming internships — Summer 2027 cycle</p>
+    <div class="meta-row">
+      <span id="updated-at">Loading…</span>
+      <span id="total-count"></span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search company, program, or focus…" autocomplete="off" />
+    <div class="filter-group" id="category-filters"></div>
+    <div class="filter-group">
+      <label class="toggle">
+        <input type="checkbox" id="game-only" checked />
+        Game-focused only (hide general SWE / research watchlist)
+      </label>
+      <label class="toggle">
+        <input type="checkbox" id="open-only" />
+        Open now only
+      </label>
+    </div>
+  </div>
+
+  <div id="cards" class="cards"></div>
+  <p id="empty-state" class="empty-state" hidden>No internships match these filters.</p>
+</main>
+
+<footer class="site-footer wrap">
+  <p>Data refreshes automatically via a scheduled GitHub Action. Status detection is a best-effort heuristic — always verify directly on the company's careers page before assuming a role is open or closed.</p>
+  <p><a href="https://github.com/skyelighti/gdinternships" target="_blank" rel="noopener">Source on GitHub</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
