@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T14:00:18.560Z",
+  "updatedAt": "2026-08-20T14:23:10.994Z",
   "source": "seed (Trello board) + AI-assisted research pass, Aug 2026",
   "internships": [
     {
@@ -1860,6 +1860,193 @@
         "https://jobs.netflix.com/careers/internships"
       ],
       "primaryUrl": "https://jobs.netflix.com/careers/internships"
+    },
+    {
+      "id": "games-for-change",
+      "company": "Games for Change",
+      "program": "Games for Change Internships",
+      "tag": "ROLLING • NONPROFIT",
+      "category": "nonprofit",
+      "focusType": "both",
+      "target": "Summer 2027",
+      "postingWindow": "limited internship openings posted on a rolling basis; no fixed cycle.",
+      "eligibility": "must be enrolled in a college/university program and eligible for school credit (unpaid, credit-based).",
+      "focus": "past roles have covered development/fundraising, programs & operations, and communications — mostly operational/advocacy work supporting the social-impact games space rather than hands-on game design or programming. Check current openings for the specific role type.",
+      "statusNote": null,
+      "fit": "Leading nonprofit championing social-impact games (runs the G4C Festival and Awards); internships are unpaid/credit-based and lean operational rather than technical, but a strong network entry point into the social-impact game space.",
+      "links": [
+        "https://www.gamesforchange.org/internships/"
+      ],
+      "primaryUrl": "https://www.gamesforchange.org/internships/",
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20"
+    },
+    {
+      "id": "gdc-conference-associate",
+      "company": "Game Developers Conference (GDC)",
+      "program": "GDC Conference Associate Program",
+      "tag": "ANNUAL • INDUSTRY PROGRAM",
+      "category": "nonprofit",
+      "focusType": "both",
+      "target": "GDC 2027 (March 1-5, 2027)",
+      "postingWindow": "direct-position applications close mid-December (Dec 17, 10pm PT) for the following March's conference; waitlist deadline in February.",
+      "eligibility": "must be legally authorized to work in the US (citizenship, permanent residency, or work authorization); SSN required; program does not sponsor visas.",
+      "focus": "not a game design/programming internship — a paid work-exchange program: ~25 hours of on-site conference work (registration, session monitoring, badge scanning, etc.) in exchange for a Festival Pass, GDC Vault access, meals, and t-shirts.",
+      "statusNote": "confirmed open as of Aug 2026 — applications accepted now for the GDC 2027 cycle.",
+      "fit": "Official Game Developers Conference program; one of the most credible, well-known ways for students to attend the industry's biggest conference and network directly with developers — genuinely paid, not just a volunteer badge. (Related: the already-tracked IGDA Foundation scholar programs are another GDC-adjacent pathway.)",
+      "links": [
+        "https://www.calounge.com/application.php",
+        "https://gdconf.com/"
+      ],
+      "primaryUrl": "https://www.calounge.com/application.php",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:21:31.564Z",
+      "lastChanged": "2026-08-20T14:21:31.564Z",
+      "addedAt": "2026-08-20"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "target": "Summer 2027",
+      "id": "apple-graphics-silicon",
+      "company": "Apple",
+      "program": "Apple Graphics / Silicon Software Engineering Internship",
+      "tag": "ROLLING • GAME-TECH",
+      "category": "game-tech",
+      "focusType": "swe",
+      "postingWindow": "roles post roughly 9-12 months before start, team by team; strongest window for Summer 2027 is September-December 2026.",
+      "focus": "GPU architecture verification, graphics/compute APIs, and Graphics/Displays backend roles on Apple Silicon.",
+      "fit": "Game programming background (graphics, performance, low-level C/C++) is a direct match for Apple's GPU and graphics teams — a strong general-SWE option that leans on the same skills as engine/rendering work.",
+      "links": [
+        "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
+      ],
+      "primaryUrl": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "target": "Summer 2027",
+      "id": "qualcomm-gpu-hardware",
+      "company": "Qualcomm",
+      "program": "Qualcomm Hardware/GPU Engineering Internship",
+      "tag": "ROLLING • GAME-TECH",
+      "category": "game-tech",
+      "focusType": "swe",
+      "postingWindow": "Summer 2027 applications expected to open around September 2026.",
+      "eligibility": "enrolled in a bachelor's, master's, or PhD program in CS/CE/EE or related; expected graduation Nov 2026 or later; C/C++/Python/Verilog experience.",
+      "focus": "GPU, CPU, and digital design internships, including graphics power analysis & optimization (Vulkan).",
+      "fit": "Mobile GPU work directly parallels game engine/rendering experience — a genuine edge for anyone with graphics programming background.",
+      "links": [
+        "https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities/americas"
+      ],
+      "primaryUrl": "https://www.qualcomm.com/company/careers/internships-and-early-in-career-opportunities/americas"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "target": "Summer 2027",
+      "id": "jane-street-swe",
+      "company": "Jane Street",
+      "program": "Jane Street Software Engineering Internship",
+      "tag": "ROLLING • GENERAL SWE",
+      "category": "general-swe",
+      "focusType": "swe",
+      "postingWindow": "Summer 2027 applications open August 2026; rolling review, no fixed deadline.",
+      "focus": "10-12 week paid internship across software engineering, quant trading/research, and related tracks.",
+      "fit": "Values strong systems/performance programming fundamentals (not games-specific, but game-dev-honed algorithmic and low-level thinking is a real asset in their interview process).",
+      "links": [
+        "https://www.janestreet.com/join-jane-street/"
+      ],
+      "primaryUrl": "https://www.janestreet.com/join-jane-street/"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "target": "Summer 2027",
+      "id": "hudson-river-trading-swe",
+      "company": "Hudson River Trading",
+      "program": "Hudson River Trading Software Engineering Internship",
+      "tag": "ROLLING • GENERAL SWE",
+      "category": "general-swe",
+      "focusType": "swe",
+      "postingWindow": "Summer 2027 posting confirmed live as of mid-2026; rolling review.",
+      "focus": "independent programming projects in Python, C, or C++ in the algorithmic trading industry.",
+      "fit": "C/C++ performance programming (a core game-dev skill) is directly relevant to HRT's low-latency systems work.",
+      "links": [
+        "https://www.hudsonrivertrading.com/student-opportunities/"
+      ],
+      "primaryUrl": "https://www.hudsonrivertrading.com/student-opportunities/"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "target": "Summer 2027",
+      "id": "waymo-swe",
+      "company": "Waymo",
+      "program": "Waymo Software Engineering Internship",
+      "tag": "FALL/WINTER • GENERAL SWE",
+      "category": "general-swe",
+      "focusType": "swe",
+      "postingWindow": "postings expected October 2026-January 2027 for Summer 2027; rolling review.",
+      "focus": "SWE roles across simulation, planning/behavior prediction, computer vision & ML, and platform infrastructure for autonomous vehicles.",
+      "fit": "Real-time simulation and systems work overlaps heavily with game engine/physics programming — the Simulation team especially rewards a game-dev background.",
+      "links": [
+        "https://waymo.com/careers/",
+        "https://waymo.com/joinus/"
+      ],
+      "primaryUrl": "https://waymo.com/careers/"
+    },
+    {
+      "trackingStatus": "watching",
+      "lastChecked": null,
+      "lastChanged": null,
+      "addedAt": "2026-08-20",
+      "target": "Summer 2027",
+      "id": "zoox-swe",
+      "company": "Zoox",
+      "program": "Zoox Software Engineering / Simulation Internship",
+      "tag": "FALL • GENERAL SWE",
+      "category": "general-swe",
+      "focusType": "swe",
+      "postingWindow": "typically posts Summer openings September-November of the prior year.",
+      "focus": "Simulation team builds high-fidelity synthetic data and real-time sensor simulation for autonomous vehicle testing; Robot Software Infrastructure covers on-vehicle systems.",
+      "fit": "Simulation/real-time-systems work is close kin to game engine and physics programming — Amazon-owned, well-funded.",
+      "links": [
+        "https://jobs.lever.co/zoox"
+      ],
+      "primaryUrl": "https://jobs.lever.co/zoox"
+    },
+    {
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T14:23:10.994Z",
+      "lastChanged": "2026-08-20T14:23:10.994Z",
+      "addedAt": "2026-08-20",
+      "target": "Summer 2027",
+      "id": "spacex-swe",
+      "company": "SpaceX",
+      "program": "SpaceX Software Engineering Internship/Co-op — Summer 2027",
+      "tag": "LIVE POSTING • GENERAL SWE",
+      "category": "general-swe",
+      "focusType": "swe",
+      "postingWindow": "confirmed live Summer 2027 posting as of Aug 2026 research pass.",
+      "focus": "roles include simulation software (real-time hardware/man-in-the-loop simulation, multi-body physics) and GNC (guidance, navigation & control) algorithms/tools.",
+      "fit": "Simulation and real-time systems roles are a strong match for game engine/physics programming experience.",
+      "links": [
+        "https://job-boards.greenhouse.io/spacex/jobs/8621757002"
+      ],
+      "primaryUrl": "https://job-boards.greenhouse.io/spacex/jobs/8621757002"
     }
   ]
 }
