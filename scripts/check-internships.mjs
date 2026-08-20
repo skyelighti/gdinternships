@@ -118,7 +118,12 @@ async function main() {
   console.log(`Checked ${updated.length} internships. ${newlyOpened.length} newly open.`);
 
   if (newlyOpened.length > 0) {
-    await sendDigestEmail(newlyOpened);
+    try {
+      await sendDigestEmail(newlyOpened);
+    } catch (err) {
+      // Don't let an email failure discard the data update above — log and exit 0.
+      console.error(`Email send failed: ${err.message}`);
+    }
   }
 }
 
