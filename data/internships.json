@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T14:47:54.960Z",
-  "source": "seed (Trello board) + AI-assisted research pass, Aug 2026",
+  "updatedAt": "2026-08-20T22:11:51.430Z",
+  "source": "seed (Trello board) + AI-assisted research passes, Aug 2026",
   "internships": [
     {
       "id": "microsoft-explore",
@@ -1812,7 +1812,7 @@
     },
     {
       "trackingStatus": "watching",
-      "lastChecked": "2026-08-20T14:47:29.720Z",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
       "lastChanged": null,
       "addedAt": "2026-08-20",
       "id": "bungie",
@@ -1822,15 +1822,18 @@
       "category": "aaa",
       "focusType": "both",
       "target": "Summer 2027",
-      "postingWindow": "0 open roles as of research date; recurring internship program page, check regularly.",
+      "postingWindow": "The dedicated internship page currently says No Open Roles; keep watching for Summer 2027 postings.",
       "focus": "game programming and game design internship tracks.",
       "fit": "Destiny studio operating independently under Sony; recurring dedicated internship team page.",
       "links": [
-        "https://careers.bungie.com/teams/internship"
+        "https://careers.bungie.com/teams/internship",
+        "https://careers.bungie.com/jobs"
       ],
       "primaryUrl": "https://careers.bungie.com/teams/internship",
       "degreeLevel": "undergrad",
-      "region": "us"
+      "region": "us",
+      "eligibility": "Eligibility details will be available when Bungie posts its next internship roles.",
+      "statusNote": "Bungie's careers board currently lists two company openings, but neither is an internship."
     },
     {
       "trackingStatus": "watching",
@@ -2216,17 +2219,17 @@
     },
     {
       "trackingStatus": "open",
-      "lastChecked": "2026-08-20T14:47:34.578Z",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
       "lastChanged": "2026-08-20T14:23:10.994Z",
       "addedAt": "2026-08-20",
       "target": "Summer 2027",
       "id": "spacex-swe",
       "company": "SpaceX",
       "program": "SpaceX Software Engineering Internship/Co-op — Summer 2027",
-      "tag": "LIVE POSTING • GENERAL SWE",
-      "category": "general-swe",
+      "tag": "OPEN • FRESHMAN-FRIENDLY SWE",
+      "category": "first-year",
       "focusType": "swe",
-      "postingWindow": "confirmed live Summer 2027 posting as of Aug 2026 research pass.",
+      "postingWindow": "Live Summer 2027 application on SpaceX's official job board.",
       "focus": "roles include simulation software (real-time hardware/man-in-the-loop simulation, multi-body physics) and GNC (guidance, navigation & control) algorithms/tools.",
       "fit": "Simulation and real-time systems roles are a strong match for game engine/physics programming experience.",
       "links": [
@@ -2234,7 +2237,9 @@
       ],
       "primaryUrl": "https://job-boards.greenhouse.io/spacex/jobs/8621757002",
       "degreeLevel": "undergrad",
-      "region": "us"
+      "region": "us",
+      "eligibility": "Enrolled in a bachelor's or graduate program; the posting explicitly includes a freshman/sophomore pay tier and requires at least three months of programming experience.",
+      "statusNote": "Freshmen are explicitly included, but applicants need hands-on coding experience and must meet U.S. export-control eligibility."
     },
     {
       "id": "epic-games-gameplay-programmer-intern",
@@ -2370,16 +2375,17 @@
       "focusType": "game-programming",
       "target": "Summer 2027",
       "postingWindow": "live posting found via employer job board API.",
-      "eligibility": null,
-      "focus": null,
-      "statusNote": null,
+      "eligibility": "Roblox states its internships are open to all class standings, from underclassmen through master's students.",
+      "focus": "Software engineering across infrastructure, game engine, search, AI, economy, and other Roblox product teams.",
+      "statusNote": "Live Summer 2027 application; Roblox explicitly says its internships are open to all class levels.",
       "fit": "Discovered via Roblox's public greenhouse job board.",
       "links": [
-        "https://careers.roblox.com/jobs/8072713?gh_jid=8072713"
+        "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+        "https://careers.roblox.com/early-career"
       ],
       "primaryUrl": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
       "trackingStatus": "open",
-      "lastChecked": "2026-08-20T14:47:34.959Z",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
       "lastChanged": "2026-08-20T14:27:53.057Z",
       "addedAt": "2026-08-20",
       "discoveredBy": "ats-scan",
@@ -2420,21 +2426,21 @@
       "focusType": "game-programming",
       "target": "Summer 2027",
       "postingWindow": "live posting found via employer job board API.",
-      "eligibility": null,
-      "focus": null,
-      "statusNote": null,
+      "eligibility": "Graduating December 2027 or later; Portuguese fluency and authorization to work in Brazil are required.",
+      "focus": "Game technology, platform engineering, data, product, and related work at a mobile game studio.",
+      "statusNote": "Freshman-friendly by graduation date, but the program is based in Sao Paulo and requires Portuguese plus a Brazilian work permit.",
       "fit": "Discovered via Wildlife Studios's public greenhouse job board.",
       "links": [
         "https://job-boards.greenhouse.io/wildlifestudios/jobs/8561456002"
       ],
       "primaryUrl": "https://job-boards.greenhouse.io/wildlifestudios/jobs/8561456002",
       "trackingStatus": "open",
-      "lastChecked": "2026-08-20T14:47:35.124Z",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
       "lastChanged": "2026-08-20T14:27:53.494Z",
       "addedAt": "2026-08-20",
       "discoveredBy": "ats-scan",
       "degreeLevel": "undergrad",
-      "region": "us"
+      "region": "international"
     },
     {
       "id": "larian-studios-gameplay-programmer-internship",
@@ -2533,6 +2539,131 @@
       "lastChanged": "2026-08-20T14:39:59.719Z",
       "addedAt": "2026-08-20",
       "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "appian-software-engineering-intern-summer-2027",
+      "company": "Appian",
+      "program": "Software Engineering Intern — Summer 2027",
+      "tag": "OPEN • FRESHMAN-FRIENDLY SWE",
+      "category": "first-year",
+      "focusType": "swe",
+      "target": "Summer 2027",
+      "postingWindow": "Live Summer 2027 application on Appian's official job board.",
+      "eligibility": "Currently pursuing a bachelor's or master's degree in Computer Science or Computer Engineering and returning to school after Summer 2027; no minimum class year is listed.",
+      "focus": "Full-stack software engineering on Appian's enterprise automation platform.",
+      "statusNote": "The listing has no upperclass-only restriction, though strong projects or prior technical experience are preferred and new work-authorization sponsorship is unavailable.",
+      "fit": "Accessible general-CS role with no stated upperclass-only restriction.",
+      "links": [
+        "https://job-boards.greenhouse.io/appian/jobs/8041237"
+      ],
+      "primaryUrl": "https://job-boards.greenhouse.io/appian/jobs/8041237",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
+      "lastChanged": "2026-08-20T22:11:51.430Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "manual-web-research",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "spacex-silicon-engineering-intern-summer-2027",
+      "company": "SpaceX",
+      "program": "Silicon Engineering Intern — Summer 2027",
+      "tag": "OPEN • FRESHMAN-FRIENDLY CTECH",
+      "category": "first-year",
+      "focusType": "swe",
+      "target": "Summer 2027",
+      "postingWindow": "Live Summer 2027 application on SpaceX's official job board.",
+      "eligibility": "Enrolled in a bachelor's or graduate program; the posting explicitly includes a freshman/sophomore pay tier and asks for at least three months of relevant experience.",
+      "focus": "Silicon, embedded systems, hardware/software co-design, verification, and chip engineering.",
+      "statusNote": "Incoming freshmen are not excluded, but applicants need relevant hands-on experience and must meet U.S. export-control eligibility.",
+      "fit": "High-value computer technology role with explicit freshman/sophomore consideration.",
+      "links": [
+        "https://job-boards.greenhouse.io/spacex/jobs/8621763002"
+      ],
+      "primaryUrl": "https://job-boards.greenhouse.io/spacex/jobs/8621763002",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
+      "lastChanged": "2026-08-20T22:11:51.430Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "manual-web-research",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "quadrillion-software-engineering-intern-summer-2027",
+      "company": "Quadrillion Labs",
+      "program": "Software Engineering Intern — Summer 2027",
+      "tag": "OPEN • EXPLICITLY OPEN TO FROSH",
+      "category": "first-year",
+      "focusType": "swe",
+      "target": "Summer 2027",
+      "postingWindow": "Live Summer 2027 application on Quadrillion's official job board.",
+      "eligibility": "Current undergraduate at a U.S. or Canadian university; the posting explicitly says it is open to frosh, while preferring sophomores and juniors.",
+      "focus": "Python or React engineering for an AI-agent research platform, including agent orchestration, sandboxed compute, backend systems, and product UI.",
+      "statusNote": "Explicitly freshman-friendly, but highly selective and asks for significant engineering ability.",
+      "fit": "Direct CS/AI/software role with unusually clear freshman eligibility.",
+      "links": [
+        "https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05"
+      ],
+      "primaryUrl": "https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
+      "lastChanged": "2026-08-20T22:11:51.430Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "manual-web-research",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "ctgt-software-engineering-intern-summer-2027",
+      "company": "CTGT",
+      "program": "Software Engineering Intern — Summer 2027",
+      "tag": "OPEN • FRESHMAN-FRIENDLY AI/SWE",
+      "category": "first-year",
+      "focusType": "swe",
+      "target": "Summer 2027",
+      "postingWindow": "Live Summer 2027 application on CTGT's official job board.",
+      "eligibility": "Pursuing a bachelor's degree in Computer Science or a related technical field; no minimum class year is listed.",
+      "focus": "Full-stack and backend engineering for AI model governance, reliability, and production policy systems.",
+      "statusNote": "No upperclass-only restriction; applicants need strong programming fundamentals, Git, and basic cloud familiarity. Visa sponsorship is available.",
+      "fit": "Strong CS and applied-AI role for students with substantial projects.",
+      "links": [
+        "https://jobs.ashbyhq.com/ctgt/f657c2f5-125e-42b6-a68a-646bbea3d155"
+      ],
+      "primaryUrl": "https://jobs.ashbyhq.com/ctgt/f657c2f5-125e-42b6-a68a-646bbea3d155",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
+      "lastChanged": "2026-08-20T22:11:51.430Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "manual-web-research",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "etched-infrastructure-intern-summer-2027",
+      "company": "Etched",
+      "program": "Infrastructure Intern — Summer 2027",
+      "tag": "OPEN • FRESHMAN-FRIENDLY CTECH",
+      "category": "first-year",
+      "focusType": "swe",
+      "target": "Summer 2027",
+      "postingWindow": "Live Summer 2027 application on Etched's official job board.",
+      "eligibility": "Working toward a bachelor's, master's, or PhD in Computer Science, Engineering, or a related technical field; no minimum class year is listed.",
+      "focus": "AI-chip infrastructure, HPC clusters, CI, observability, systems software, and hardware/software co-design.",
+      "statusNote": "No upperclass-only restriction, but the technical bar is high: C/C++ or Rust, Python, data structures, algorithms, and low-level systems knowledge.",
+      "fit": "Excellent computer-technology option connecting software, infrastructure, and custom AI hardware.",
+      "links": [
+        "https://jobs.ashbyhq.com/etched/80926a71-0a62-4bf8-a877-b6d96df279b7"
+      ],
+      "primaryUrl": "https://jobs.ashbyhq.com/etched/80926a71-0a62-4bf8-a877-b6d96df279b7",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-20T22:11:51.430Z",
+      "lastChanged": "2026-08-20T22:11:51.430Z",
+      "addedAt": "2026-08-20",
+      "discoveredBy": "manual-web-research",
       "degreeLevel": "undergrad",
       "region": "us"
     }

@@ -4,7 +4,7 @@ const CATEGORY_LABELS = {
   design: "Game Design",
   nonprofit: "Nonprofit / Community",
   "game-tech": "Game-Tech / XR / Tools",
-  "first-year": "First-Year Program",
+  "first-year": "First-Year / Freshman-Friendly",
   "general-swe": "General SWE",
   research: "Research / REU",
 };
