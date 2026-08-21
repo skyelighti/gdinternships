@@ -98,6 +98,47 @@ export async function sendDigestEmail(items, newlyOpenedIds = new Set()) {
   console.log(`Email sent: ${newToday.length} new, ${reminders.length} reminder(s).`);
 }
 
+// Sent when a refresh finds no newly-opened listings, so the day doesn't go
+// by silently. openItems: everything currently tracked as "open" (regardless
+// of how long ago it opened). expiringItems: the subset that's about to age
+// out of the 7-day "new/reminder" digest window (still open on the site, but
+// this tracker will stop reminding about it soon).
+export async function sendRecapEmail(openItems, expiringItems = []) {
+  if (openItems.length === 0) return;
+
+  const expiringIds = new Set(expiringItems.map((i) => i.id));
+  const stillOpen = openItems.filter((i) => !expiringIds.has(i.id));
+
+  const sections = [
+    expiringItems.length
+      ? `<h3>⌛ Expiring from reminders soon (${expiringItems.length})</h3>
+         <table style="border-collapse:collapse;width:100%;">${rowsWithDayCount(expiringItems)}</table>`
+      : "",
+    stillOpen.length
+      ? `<h3>✅ Currently open (${stillOpen.length})</h3>
+         <table style="border-collapse:collapse;width:100%;">${rowsFor(stillOpen)}</table>`
+      : "",
+  ]
+    .filter(Boolean)
+    .join("");
+
+  const html = `
+    <h2>🎮 No new listings this refresh — recap</h2>
+    <p style="color:#666;font-size:13px;">Nothing new opened since the last check. Here's what's still open right now.</p>
+    ${sections}
+    <p style="margin-top:16px;color:#666;font-size:13px;">
+      Detection is a best-effort heuristic based on scanning each careers page — always confirm on the
+      company site before assuming applications are live. "Expiring from reminders soon" means this
+      listing is about to fall out of the 7-day new/reminder digest, not that the posting itself is closing.
+    </p>`;
+
+  await sendViaResend({
+    subject: `🎮 Recap: ${openItems.length} internship listing${openItems.length > 1 ? "s" : ""} open, nothing new`,
+    html,
+  });
+  console.log(`Recap email sent: ${openItems.length} open, ${expiringItems.length} expiring soon.`);
+}
+
 export async function sendDiscoveryEmail(newlyDiscovered) {
   if (newlyDiscovered.length === 0) return;
 

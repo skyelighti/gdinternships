@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { sendDigestEmail } from "./send-email.mjs";
+import { sendDigestEmail, sendRecapEmail } from "./send-email.mjs";
 
 const DATA_PATH = new URL("../data/internships.json", import.meta.url);
 const TIMEOUT_MS = 20_000;
@@ -185,13 +185,26 @@ async function main() {
       now - new Date(item.lastChanged).getTime() <= REMINDER_WINDOW_MS
   );
 
-  if (recentOpens.length > 0) {
-    try {
+  // Two runs a day, 12h apart (see check-internships.yml). The 01:00 UTC run
+  // is the "second refresh" — if it turns up nothing new, send a recap of
+  // what's currently open (and what's about to age out of the reminder
+  // window) instead of staying silent for the whole day.
+  const isSecondRefresh = process.env.RUN_SCHEDULE === "0 1 * * *";
+
+  try {
+    if (newlyOpenedIds.size > 0 && recentOpens.length > 0) {
       await sendDigestEmail(recentOpens, newlyOpenedIds);
-    } catch (err) {
-      // Don't let an email failure discard the data update above — log and exit 0.
-      console.error(`Email send failed: ${err.message}`);
+    } else if (isSecondRefresh) {
+      const allOpen = updated.filter((item) => item.trackingStatus === "open");
+      const expiringSoon = recentOpens.filter((item) => {
+        const daysOpen = Math.floor((now - new Date(item.lastChanged).getTime()) / (24 * 60 * 60 * 1000)) + 1;
+        return daysOpen >= 6; // dropping out of the reminder digest within a day or two
+      });
+      await sendRecapEmail(allOpen, expiringSoon);
     }
+  } catch (err) {
+    // Don't let an email failure discard the data update above — log and exit 0.
+    console.error(`Email send failed: ${err.message}`);
   }
 }
 

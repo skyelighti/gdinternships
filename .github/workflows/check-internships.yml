@@ -2,8 +2,11 @@ name: Check internship listings
 
 on:
   schedule:
-    # 13:00 UTC daily (~9am ET / 6am PT)
+    # Twice daily, 12h apart: 13:00 UTC (~9am ET) and 01:00 UTC (~9pm ET).
+    # The 01:00 UTC run is the "second refresh of the day" — if it finds no
+    # newly-opened listings, it sends a recap instead of staying silent.
     - cron: "0 13 * * *"
+    - cron: "0 1 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -24,6 +27,7 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+          RUN_SCHEDULE: ${{ github.event.schedule }}
         run: node scripts/check-internships.mjs
 
       - name: Commit updated data
