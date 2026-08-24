@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T02:15:31.329Z",
+  "updatedAt": "2026-08-24T12:58:04.728Z",
   "source": "seed (Trello board) + AI-assisted research passes, Aug 2026",
   "internships": [
     {
@@ -2664,6 +2664,31 @@
       "lastChanged": "2026-08-21T13:38:23.203Z",
       "addedAt": "2026-08-20",
       "discoveredBy": "manual-web-research",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "epic-games-engine-programmer-intern",
+      "company": "Epic Games",
+      "program": "Engine Programmer Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": "Location: London,England,United Kingdom",
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6147283004?gh_jid=6147283004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6147283004?gh_jid=6147283004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-24T12:58:00.578Z",
+      "lastChanged": "2026-08-24T12:58:00.578Z",
+      "addedAt": "2026-08-24",
+      "discoveredBy": "ats-scan",
       "degreeLevel": "undergrad",
       "region": "us"
     }
