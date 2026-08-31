@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T06:20:56.337Z",
+  "updatedAt": "2026-08-31T18:58:49.878Z",
   "source": "seed (Trello board) + AI-assisted research passes, Aug 2026",
   "internships": [
     {
@@ -2688,6 +2688,81 @@
       "lastChecked": "2026-08-31T06:20:37.487Z",
       "lastChanged": "2026-08-24T12:58:00.578Z",
       "addedAt": "2026-08-24",
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "epic-games-game-design-intern",
+      "company": "Epic Games",
+      "program": "Game Design Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": "Location: Cary,North Carolina,United States",
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6147156004?gh_jid=6147156004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6147156004?gh_jid=6147156004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-31T18:58:31.856Z",
+      "lastChanged": "2026-08-31T18:58:31.856Z",
+      "addedAt": "2026-08-31",
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "epic-games-level-design-intern",
+      "company": "Epic Games",
+      "program": "Level Design Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": "Location: TEMPLATE LOCATION",
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6173450004?gh_jid=6173450004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6173450004?gh_jid=6173450004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-31T18:58:31.856Z",
+      "lastChanged": "2026-08-31T18:58:31.856Z",
+      "addedAt": "2026-08-31",
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "epic-games-web-engineer-intern",
+      "company": "Epic Games",
+      "program": "Web Engineer Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": "Location: London,England,United Kingdom",
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6163851004?gh_jid=6163851004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6163851004?gh_jid=6163851004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-08-31T18:58:31.857Z",
+      "lastChanged": "2026-08-31T18:58:31.857Z",
+      "addedAt": "2026-08-31",
       "discoveredBy": "ats-scan",
       "degreeLevel": "undergrad",
       "region": "us"
