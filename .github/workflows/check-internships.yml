@@ -2,12 +2,16 @@ name: Check internship listings
 
 on:
   schedule:
-    # Twice daily, 12h apart: 13:00 UTC (~9am ET) and 01:00 UTC (~9pm ET).
-    # The 01:00 UTC run is the "second refresh of the day" — if it finds no
-    # newly-opened listings, it sends a recap instead of staying silent.
-    - cron: "0 13 * * *"
-    - cron: "0 1 * * *"
+    # Scan every 20 minutes. Offsetting from the top of the hour reduces the
+    # chance of GitHub's busiest scheduled-workflow window delaying a run.
+    - cron: "7,27,47 * * * *"
+    # Keep one daily recap around 9pm ET without emailing after every scan.
+    - cron: "13 1 * * *"
   workflow_dispatch: {}
+
+concurrency:
+  group: internship-listing-check
+  cancel-in-progress: false
 
 permissions:
   contents: write

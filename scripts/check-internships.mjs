@@ -154,6 +154,7 @@ const REMINDER_WINDOW_MS = 7 * 24 * 60 * 60 * 1000; // remind daily for a week, 
 async function main() {
   const raw = await readFile(DATA_PATH, "utf8");
   const data = JSON.parse(raw);
+  const isDailyRecap = process.env.RUN_SCHEDULE === "13 1 * * *";
 
   const updated = await runPool(data.internships, checkOne, CONCURRENCY);
 
@@ -169,7 +170,17 @@ async function main() {
     internships: updated,
   };
 
-  await writeFile(DATA_PATH, JSON.stringify(out, null, 2) + "\n");
+  // Frequent scans should not create 72 commits and Pages rebuilds per day.
+  // Publish immediately when a listing changes, once for the daily recap, or
+  // whenever the checker is run manually. Other scheduled scans remain
+  // read-only unless they discover a status transition.
+  const hasStatusChanges = updated.some(
+    (item, i) => item.trackingStatus !== data.internships[i].trackingStatus
+  );
+  const shouldPublish = hasStatusChanges || isDailyRecap || !process.env.RUN_SCHEDULE;
+  if (shouldPublish) {
+    await writeFile(DATA_PATH, JSON.stringify(out, null, 2) + "\n");
+  }
   console.log(`Checked ${updated.length} internships. ${newlyOpenedIds.size} newly open.`);
 
   // Email daily for anything open and opened within the last 7 days — new
@@ -185,16 +196,14 @@ async function main() {
       now - new Date(item.lastChanged).getTime() <= REMINDER_WINDOW_MS
   );
 
-  // Two runs a day, 12h apart (see check-internships.yml). The 01:00 UTC run
-  // is the "second refresh" — if it turns up nothing new, send a recap of
-  // what's currently open (and what's about to age out of the reminder
-  // window) instead of staying silent for the whole day.
-  const isSecondRefresh = process.env.RUN_SCHEDULE === "0 1 * * *";
+  // The checker runs every 20 minutes, but only the dedicated 01:13 UTC run
+  // sends a recap when nothing new opened. All other scans stay silent unless
+  // they detect a newly-opened listing.
 
   try {
     if (newlyOpenedIds.size > 0 && recentOpens.length > 0) {
       await sendDigestEmail(recentOpens, newlyOpenedIds);
-    } else if (isSecondRefresh) {
+    } else if (isDailyRecap) {
       const allOpen = updated.filter((item) => item.trackingStatus === "open");
       const expiringSoon = recentOpens.filter((item) => {
         const daysOpen = Math.floor((now - new Date(item.lastChanged).getTime()) / (24 * 60 * 60 * 1000)) + 1;
