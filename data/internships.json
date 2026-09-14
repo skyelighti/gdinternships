@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T06:12:52.119Z",
+  "updatedAt": "2026-09-14T17:56:39.637Z",
   "source": "seed (Trello board) + AI-assisted research passes, Aug 2026",
   "internships": [
     {
@@ -2888,6 +2888,56 @@
       "lastChecked": "2026-09-14T06:12:32.118Z",
       "lastChanged": "2026-09-07T17:34:42.990Z",
       "addedAt": "2026-09-07",
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "epic-games-backend-services-programmer-intern",
+      "company": "Epic Games",
+      "program": "Backend Services Programmer Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": "Location: Cary,North Carolina,United States",
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-09-14T17:56:36.074Z",
+      "lastChanged": "2026-09-14T17:56:36.074Z",
+      "addedAt": "2026-09-14",
+      "discoveredBy": "ats-scan",
+      "degreeLevel": "undergrad",
+      "region": "us"
+    },
+    {
+      "id": "epic-games-ui-programmer-intern",
+      "company": "Epic Games",
+      "program": "UI Programmer Intern",
+      "tag": "ATS BOARD • LIVE POSTING",
+      "category": "aaa",
+      "focusType": "game-programming",
+      "target": "Summer 2027",
+      "postingWindow": "live posting found via employer job board API.",
+      "eligibility": null,
+      "focus": "Location: Cary,North Carolina,United States",
+      "statusNote": null,
+      "fit": "Discovered via Epic Games's public greenhouse job board.",
+      "links": [
+        "https://epicgames.com/careers/jobs/6183401004?gh_jid=6183401004"
+      ],
+      "primaryUrl": "https://epicgames.com/careers/jobs/6183401004?gh_jid=6183401004",
+      "trackingStatus": "open",
+      "lastChecked": "2026-09-14T17:56:36.074Z",
+      "lastChanged": "2026-09-14T17:56:36.074Z",
+      "addedAt": "2026-09-14",
       "discoveredBy": "ats-scan",
       "degreeLevel": "undergrad",
       "region": "us"
